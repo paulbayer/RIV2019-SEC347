@@ -1,0 +1,118 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: 'This template creates a Private Hosted Zone along with a Lambda that can insert records to it.'
+
+Parameters:
+  HostedZoneName:
+    Type: String
+    Default: 'internalsite.net'
+  BucketName:
+    Type: String
+    Default: 'route53-lambda-code-repo'
+  CodePackageS3Key:
+    Type: String
+    Default: 'route53_lambda.zip'
+
+Resources:
+  HostedZone:
+    Type: "AWS::Route53::HostedZone"
+    Properties:
+      HostedZoneConfig:
+        Comment: "Private hosted zone."
+      Name: !Ref HostedZoneName
+      VPCs:
+        -
+          VPCId: !ImportValue CalypsoVPCId
+          VPCRegion: !Ref AWS::Region
+
+  HostedZoneLambda:
+    Type: AWS::Lambda::Function
+    Properties:
+      FunctionName: !Sub ${AWS::StackName}
+      Code:
+        S3Bucket: !Ref BucketName
+        S3Key: !Ref CodePackageS3Key
+      MemorySize: '256'
+      Handler: index.lambda_handler
+      Role: !GetAtt LambdaRole.Arn
+      Timeout: '300'
+      Runtime: python3.7
+      Environment:
+        Variables:
+          HOSTED_ZONE_ID: !Ref HostedZone
+          LOG_LEVEL: INFO
+      Description: Lambda to to update DNS Hosted Zone for EC2 starts.
+
+  EC2EventRule:
+    Type: AWS::Events::Rule
+    Properties:
+      Description: "Event rule for detecting new EC2 instances"
+      EventPattern:
+        source:
+          - "aws.ec2"
+        detail-type:
+          - "EC2 Instance State-change Notification"
+        detail:
+          state:
+            - "running"
+      State: "ENABLED"
+      Targets:
+        -
+          Arn: !GetAtt HostedZoneLambda.Arn
+          Id: "TargetFunctionV1"
+  PermissionForEventsToInvokeLambda:
+    Type: AWS::Lambda::Permission
+    Properties:
+      FunctionName: !Ref HostedZoneLambda
+      Action: "lambda:InvokeFunction"
+      Principal: "events.amazonaws.com"
+
+  LambdaRole:
+    Type: AWS::IAM::Role
+    Properties:
+      RoleName: !Sub HostedZoneInsertRecordLambdaRole-${AWS::Region}
+      AssumeRolePolicyDocument:
+        Statement:
+        - Effect: Allow
+          Principal:
+            Service:
+              - lambda.amazonaws.com
+          Action:
+            - sts:AssumeRole
+      Path: /
+      Policies:
+        - PolicyName: log-permissions
+          PolicyDocument:
+            Statement:
+              - Action:
+                  - logs:CreateLogGroup
+                  - logs:CreateLogStream
+                  - logs:PutLogEvents
+                Effect: Allow
+                Resource: 'arn:aws:logs:*:*:*'
+        - PolicyName: route53-permissions
+          PolicyDocument:
+            Statement:
+              - Action:
+                  - route53:ChangeResourceRecordSets
+                  - route53:GetChange
+                  - route53:ListResourceRecordSets
+                  - route53:GetHostedZone
+                Effect: Allow
+                Resource: '*'
+        - PolicyName: ec2-permissions
+          PolicyDocument:
+            Statement:
+              - Action:
+                  - ec2:Describe*
+                Effect: Allow
+                Resource: '*'
+
+Outputs:
+  HostedZoneId:
+    Description: The ID of the Hosted Zone.
+    Value: !Ref HostedZone
+    Export:
+      Name: HostedZoneID
+  LambdaArn:
+    Description: The ARN of the Lambda.
+    Value: !GetAtt HostedZoneLambda.Arn
