@@ -1,0 +1,1 @@
+dig +noadditional +noauthority  +question +answer +nostats fs-53becfd2.efs.us-east-1.amazonaws.com @localhost

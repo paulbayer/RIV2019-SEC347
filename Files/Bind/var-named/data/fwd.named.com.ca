@@ -1,0 +1,15 @@
+$TTL 86400
+@ IN SOA dns.example.com. root.example.com. (
+2019112101 ;Serial
+3600 ;Refresh
+1800 ;Retry
+604800 ;Expire
+120 ;Minimum TTL
+)
+
+$ORIGIN com.
+;Name Server Information
+@			518400	IN	NS	dns.example.com.
+;IP address of Name Server
+dns.example.com. 	300	IN 	A 	10.3.3.22
+

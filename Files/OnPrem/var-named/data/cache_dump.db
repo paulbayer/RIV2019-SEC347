@@ -1,0 +1,57 @@
+;
+; Start view _default
+;
+;
+; Cache dump of view '_default' (cache _default)
+;
+$DATE 20191130214648
+; authanswer
+.			515658	IN NS	dns.example.com.
+; glue
+com.			518256	NS	dns.example.com.
+; glue
+dns.example.com.	83658	A	10.3.3.22
+; authanswer
+ftp.example.com.	85985	CNAME	www.example.com.
+; authanswer
+www.example.com.	83658	A	10.3.3.100
+;
+; Address database dump
+;
+; [edns success/4096 timeout/1432 timeout/1232 timeout/512 timeout]
+; [plain success/timeout]
+;
+;
+; Unassociated entries
+;
+;	10.3.3.22 [srtt 374] [flags 00004000] [edns 3/0/0/0/0] [plain 0/0] [udpsize 512] [ttl 1385]
+;		www.google.com A [lame TTL 456]
+;
+; Bad cache
+;
+;
+; SERVFAIL cache
+;
+;
+; Start view _bind
+;
+;
+; Cache dump of view '_bind' (cache _bind)
+;
+$DATE 20191130214648
+;
+; Address database dump
+;
+; [edns success/4096 timeout/1432 timeout/1232 timeout/512 timeout]
+; [plain success/timeout]
+;
+;
+; Unassociated entries
+;
+;
+; Bad cache
+;
+;
+; SERVFAIL cache
+;
+; Dump complete

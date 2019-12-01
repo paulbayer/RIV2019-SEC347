@@ -1,0 +1,581 @@
+29-Nov-2019 04:00:16.806 general: info: managed-keys-zone: journal file is out of date: removing journal file
+29-Nov-2019 04:00:16.807 general: info: managed-keys-zone: loaded serial 18
+29-Nov-2019 04:00:16.807 general: info: zone 0.in-addr.arpa/IN: loaded serial 0
+29-Nov-2019 04:00:16.814 general: info: zone localhost/IN: loaded serial 0
+29-Nov-2019 04:00:16.815 general: info: zone 1.0.0.127.in-addr.arpa/IN: loaded serial 0
+29-Nov-2019 04:00:16.816 general: info: zone 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa/IN: loaded serial 0
+29-Nov-2019 04:00:16.817 general: info: zone localhost.localdomain/IN: loaded serial 0
+29-Nov-2019 04:00:16.818 general: notice: all zones loaded
+29-Nov-2019 04:00:16.822 general: notice: running
+29-Nov-2019 04:00:16.824 general: warning: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+29-Nov-2019 04:01:16.448 general: info: received control channel command 'reload'
+29-Nov-2019 04:01:16.448 general: info: loading configuration from '/etc/named.conf'
+29-Nov-2019 04:01:16.448 general: info: reading built-in trust anchors from file '/etc/named.root.key'
+29-Nov-2019 04:01:16.448 general: info: initializing GeoIP Country (IPv4) (type 1) DB
+29-Nov-2019 04:01:16.449 general: info: GEO-106FREE 20160607 Build 1 Copyright (c) 2016 MaxMind 
+29-Nov-2019 04:01:16.449 general: info: initializing GeoIP Country (IPv6) (type 12) DB
+29-Nov-2019 04:01:16.449 general: info: GEO-106FREE 20160607 Build 1 Copy
+29-Nov-2019 04:01:16.449 general: info: GeoIP City (IPv4) (type 2) DB not available
+29-Nov-2019 04:01:16.449 general: info: GeoIP City (IPv4) (type 6) DB not available
+29-Nov-2019 04:01:16.449 general: info: GeoIP City (IPv6) (type 30) DB not available
+29-Nov-2019 04:01:16.449 general: info: GeoIP City (IPv6) (type 31) DB not available
+29-Nov-2019 04:01:16.449 general: info: GeoIP Region (type 3) DB not available
+29-Nov-2019 04:01:16.449 general: info: GeoIP Region (type 7) DB not available
+29-Nov-2019 04:01:16.449 general: info: GeoIP ISP (type 4) DB not available
+29-Nov-2019 04:01:16.449 general: info: GeoIP Org (type 5) DB not available
+29-Nov-2019 04:01:16.449 general: info: GeoIP AS (type 9) DB not available
+29-Nov-2019 04:01:16.449 general: info: GeoIP Domain (type 11) DB not available
+29-Nov-2019 04:01:16.449 general: info: GeoIP NetSpeed (type 10) DB not available
+29-Nov-2019 04:01:16.449 general: info: using default UDP/IPv4 port range: [32768, 60999]
+29-Nov-2019 04:01:16.453 general: info: sizing zone task pool based on 6 zones
+29-Nov-2019 04:01:16.454 config: info: none:104: 'max-cache-size 90%' - setting to 885MB (out of 983MB)
+29-Nov-2019 04:01:16.469 general: info: automatic empty zone: 10.IN-ADDR.ARPA
+29-Nov-2019 04:01:16.470 general: info: automatic empty zone: 16.172.IN-ADDR.ARPA
+29-Nov-2019 04:01:16.470 general: info: automatic empty zone: 17.172.IN-ADDR.ARPA
+29-Nov-2019 04:01:16.470 general: info: automatic empty zone: 18.172.IN-ADDR.ARPA
+29-Nov-2019 04:01:16.471 general: info: automatic empty zone: 19.172.IN-ADDR.ARPA
+29-Nov-2019 04:01:16.471 general: info: automatic empty zone: 20.172.IN-ADDR.ARPA
+29-Nov-2019 04:01:16.471 general: info: automatic empty zone: 21.172.IN-ADDR.ARPA
+29-Nov-2019 04:01:16.472 general: info: automatic empty zone: 22.172.IN-ADDR.ARPA
+29-Nov-2019 04:01:16.472 general: info: automatic empty zone: 23.172.IN-ADDR.ARPA
+29-Nov-2019 04:01:16.472 general: info: automatic empty zone: 24.172.IN-ADDR.ARPA
+29-Nov-2019 04:01:16.472 general: info: automatic empty zone: 25.172.IN-ADDR.ARPA
+29-Nov-2019 04:01:16.473 general: info: automatic empty zone: 26.172.IN-ADDR.ARPA
+29-Nov-2019 04:01:16.473 general: info: automatic empty zone: 27.172.IN-ADDR.ARPA
+29-Nov-2019 04:01:16.473 general: info: automatic empty zone: 28.172.IN-ADDR.ARPA
+29-Nov-2019 04:01:16.474 general: info: automatic empty zone: 29.172.IN-ADDR.ARPA
+29-Nov-2019 04:01:16.474 general: info: automatic empty zone: 30.172.IN-ADDR.ARPA
+29-Nov-2019 04:01:16.474 general: info: automatic empty zone: 31.172.IN-ADDR.ARPA
+29-Nov-2019 04:01:16.474 general: info: automatic empty zone: 168.192.IN-ADDR.ARPA
+29-Nov-2019 04:01:16.474 general: info: automatic empty zone: 64.100.IN-ADDR.ARPA
+29-Nov-2019 04:01:16.474 general: info: automatic empty zone: 65.100.IN-ADDR.ARPA
+29-Nov-2019 04:01:16.474 general: info: automatic empty zone: 66.100.IN-ADDR.ARPA
+29-Nov-2019 04:01:16.474 general: info: automatic empty zone: 67.100.IN-ADDR.ARPA
+29-Nov-2019 04:01:16.474 general: info: automatic empty zone: 68.100.IN-ADDR.ARPA
+29-Nov-2019 04:01:16.474 general: info: automatic empty zone: 69.100.IN-ADDR.ARPA
+29-Nov-2019 04:01:16.474 general: info: automatic empty zone: 70.100.IN-ADDR.ARPA
+29-Nov-2019 04:01:16.475 general: info: automatic empty zone: 71.100.IN-ADDR.ARPA
+29-Nov-2019 04:01:16.475 general: info: automatic empty zone: 72.100.IN-ADDR.ARPA
+29-Nov-2019 04:01:16.475 general: info: automatic empty zone: 73.100.IN-ADDR.ARPA
+29-Nov-2019 04:01:16.475 general: info: automatic empty zone: 74.100.IN-ADDR.ARPA
+29-Nov-2019 04:01:16.475 general: info: automatic empty zone: 75.100.IN-ADDR.ARPA
+29-Nov-2019 04:01:16.475 general: info: automatic empty zone: 76.100.IN-ADDR.ARPA
+29-Nov-2019 04:01:16.475 general: info: automatic empty zone: 77.100.IN-ADDR.ARPA
+29-Nov-2019 04:01:16.475 general: info: automatic empty zone: 78.100.IN-ADDR.ARPA
+29-Nov-2019 04:01:16.475 general: info: automatic empty zone: 79.100.IN-ADDR.ARPA
+29-Nov-2019 04:01:16.475 general: info: automatic empty zone: 80.100.IN-ADDR.ARPA
+29-Nov-2019 04:01:16.475 general: info: automatic empty zone: 81.100.IN-ADDR.ARPA
+29-Nov-2019 04:01:16.475 general: info: automatic empty zone: 82.100.IN-ADDR.ARPA
+29-Nov-2019 04:01:16.475 general: info: automatic empty zone: 83.100.IN-ADDR.ARPA
+29-Nov-2019 04:01:16.475 general: info: automatic empty zone: 84.100.IN-ADDR.ARPA
+29-Nov-2019 04:01:16.475 general: info: automatic empty zone: 85.100.IN-ADDR.ARPA
+29-Nov-2019 04:01:16.475 general: info: automatic empty zone: 86.100.IN-ADDR.ARPA
+29-Nov-2019 04:01:16.475 general: info: automatic empty zone: 87.100.IN-ADDR.ARPA
+29-Nov-2019 04:01:16.475 general: info: automatic empty zone: 88.100.IN-ADDR.ARPA
+29-Nov-2019 04:01:16.475 general: info: automatic empty zone: 89.100.IN-ADDR.ARPA
+29-Nov-2019 04:01:16.475 general: info: automatic empty zone: 90.100.IN-ADDR.ARPA
+29-Nov-2019 04:01:16.475 general: info: automatic empty zone: 91.100.IN-ADDR.ARPA
+29-Nov-2019 04:01:16.475 general: info: automatic empty zone: 92.100.IN-ADDR.ARPA
+29-Nov-2019 04:01:16.475 general: info: automatic empty zone: 93.100.IN-ADDR.ARPA
+29-Nov-2019 04:01:16.475 general: info: automatic empty zone: 94.100.IN-ADDR.ARPA
+29-Nov-2019 04:01:16.475 general: info: automatic empty zone: 95.100.IN-ADDR.ARPA
+29-Nov-2019 04:01:16.475 general: info: automatic empty zone: 96.100.IN-ADDR.ARPA
+29-Nov-2019 04:01:16.475 general: info: automatic empty zone: 97.100.IN-ADDR.ARPA
+29-Nov-2019 04:01:16.475 general: info: automatic empty zone: 98.100.IN-ADDR.ARPA
+29-Nov-2019 04:01:16.475 general: info: automatic empty zone: 99.100.IN-ADDR.ARPA
+29-Nov-2019 04:01:16.475 general: info: automatic empty zone: 100.100.IN-ADDR.ARPA
+29-Nov-2019 04:01:16.475 general: info: automatic empty zone: 101.100.IN-ADDR.ARPA
+29-Nov-2019 04:01:16.475 general: info: automatic empty zone: 102.100.IN-ADDR.ARPA
+29-Nov-2019 04:01:16.475 general: info: automatic empty zone: 103.100.IN-ADDR.ARPA
+29-Nov-2019 04:01:16.475 general: info: automatic empty zone: 104.100.IN-ADDR.ARPA
+29-Nov-2019 04:01:16.475 general: info: automatic empty zone: 105.100.IN-ADDR.ARPA
+29-Nov-2019 04:01:16.475 general: info: automatic empty zone: 106.100.IN-ADDR.ARPA
+29-Nov-2019 04:01:16.475 general: info: automatic empty zone: 107.100.IN-ADDR.ARPA
+29-Nov-2019 04:01:16.475 general: info: automatic empty zone: 108.100.IN-ADDR.ARPA
+29-Nov-2019 04:01:16.475 general: info: automatic empty zone: 109.100.IN-ADDR.ARPA
+29-Nov-2019 04:01:16.475 general: info: automatic empty zone: 110.100.IN-ADDR.ARPA
+29-Nov-2019 04:01:16.475 general: info: automatic empty zone: 111.100.IN-ADDR.ARPA
+29-Nov-2019 04:01:16.475 general: info: automatic empty zone: 112.100.IN-ADDR.ARPA
+29-Nov-2019 04:01:16.475 general: info: automatic empty zone: 113.100.IN-ADDR.ARPA
+29-Nov-2019 04:01:16.475 general: info: automatic empty zone: 114.100.IN-ADDR.ARPA
+29-Nov-2019 04:01:16.475 general: info: automatic empty zone: 115.100.IN-ADDR.ARPA
+29-Nov-2019 04:01:16.475 general: info: automatic empty zone: 116.100.IN-ADDR.ARPA
+29-Nov-2019 04:01:16.475 general: info: automatic empty zone: 117.100.IN-ADDR.ARPA
+29-Nov-2019 04:01:16.475 general: info: automatic empty zone: 118.100.IN-ADDR.ARPA
+29-Nov-2019 04:01:16.475 general: info: automatic empty zone: 119.100.IN-ADDR.ARPA
+29-Nov-2019 04:01:16.475 general: info: automatic empty zone: 120.100.IN-ADDR.ARPA
+29-Nov-2019 04:01:16.475 general: info: automatic empty zone: 121.100.IN-ADDR.ARPA
+29-Nov-2019 04:01:16.475 general: info: automatic empty zone: 122.100.IN-ADDR.ARPA
+29-Nov-2019 04:01:16.475 general: info: automatic empty zone: 123.100.IN-ADDR.ARPA
+29-Nov-2019 04:01:16.475 general: info: automatic empty zone: 124.100.IN-ADDR.ARPA
+29-Nov-2019 04:01:16.475 general: info: automatic empty zone: 125.100.IN-ADDR.ARPA
+29-Nov-2019 04:01:16.475 general: info: automatic empty zone: 126.100.IN-ADDR.ARPA
+29-Nov-2019 04:01:16.475 general: info: automatic empty zone: 127.100.IN-ADDR.ARPA
+29-Nov-2019 04:01:16.476 general: info: automatic empty zone: 127.IN-ADDR.ARPA
+29-Nov-2019 04:01:16.476 general: info: automatic empty zone: 254.169.IN-ADDR.ARPA
+29-Nov-2019 04:01:16.476 general: info: automatic empty zone: 2.0.192.IN-ADDR.ARPA
+29-Nov-2019 04:01:16.476 general: info: automatic empty zone: 100.51.198.IN-ADDR.ARPA
+29-Nov-2019 04:01:16.476 general: info: automatic empty zone: 113.0.203.IN-ADDR.ARPA
+29-Nov-2019 04:01:16.476 general: info: automatic empty zone: 255.255.255.255.IN-ADDR.ARPA
+29-Nov-2019 04:01:16.476 general: info: automatic empty zone: 0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA
+29-Nov-2019 04:01:16.476 general: info: automatic empty zone: D.F.IP6.ARPA
+29-Nov-2019 04:01:16.476 general: info: automatic empty zone: 8.E.F.IP6.ARPA
+29-Nov-2019 04:01:16.476 general: info: automatic empty zone: 9.E.F.IP6.ARPA
+29-Nov-2019 04:01:16.476 general: info: automatic empty zone: A.E.F.IP6.ARPA
+29-Nov-2019 04:01:16.476 general: info: automatic empty zone: B.E.F.IP6.ARPA
+29-Nov-2019 04:01:16.476 general: info: automatic empty zone: 8.B.D.0.1.0.0.2.IP6.ARPA
+29-Nov-2019 04:01:16.476 general: info: automatic empty zone: EMPTY.AS112.ARPA
+29-Nov-2019 04:01:16.476 general: info: automatic empty zone: HOME.ARPA
+29-Nov-2019 04:01:16.480 config: info: none:104: 'max-cache-size 90%' - setting to 885MB (out of 983MB)
+29-Nov-2019 04:01:16.509 general: info: configuring command channel from '/etc/rndc.key'
+29-Nov-2019 04:01:16.514 general: info: reloading configuration succeeded
+29-Nov-2019 04:01:16.514 general: info: reloading zones succeeded
+29-Nov-2019 04:01:16.539 general: warning: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+29-Nov-2019 04:01:16.542 general: notice: all zones loaded
+29-Nov-2019 04:01:16.543 general: notice: running
+29-Nov-2019 04:03:21.493 general: info: received control channel command 'trace 9'
+29-Nov-2019 04:03:21.493 general: info: debug level is now 9
+29-Nov-2019 04:15:55.577 general: info: received control channel command 'sstats'
+29-Nov-2019 04:15:55.577 general: warning: unknown control channel command 'sstats'
+29-Nov-2019 04:15:58.380 general: info: received control channel command 'stats'
+29-Nov-2019 04:15:58.380 general: info: dumpstats complete
+29-Nov-2019 04:17:17.499 general: info: received control channel command 'stop'
+29-Nov-2019 04:17:17.500 general: info: shutting down: flushing changes
+29-Nov-2019 04:17:17.500 general: notice: stopping command channel on 127.0.0.1#953
+29-Nov-2019 04:17:17.500 network: info: no longer listening on 127.0.0.1#53
+29-Nov-2019 04:17:17.500 network: info: no longer listening on 10.1.1.108#53
+29-Nov-2019 04:17:17.515 general: notice: exiting
+29-Nov-2019 04:17:24.926 general: info: managed-keys-zone: journal file is out of date: removing journal file
+29-Nov-2019 04:17:24.927 general: info: managed-keys-zone: loaded serial 20
+29-Nov-2019 04:17:24.930 general: info: zone 0.in-addr.arpa/IN: loaded serial 0
+29-Nov-2019 04:17:24.934 general: info: zone localhost/IN: loaded serial 0
+29-Nov-2019 04:17:24.938 general: info: zone 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa/IN: loaded serial 0
+29-Nov-2019 04:17:24.938 general: info: zone localhost.localdomain/IN: loaded serial 0
+29-Nov-2019 04:17:24.939 general: info: zone 1.0.0.127.in-addr.arpa/IN: loaded serial 0
+29-Nov-2019 04:17:24.939 general: notice: all zones loaded
+29-Nov-2019 04:17:24.943 general: notice: running
+29-Nov-2019 04:17:24.946 general: warning: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+29-Nov-2019 04:32:21.158 general: info: received control channel command 'flush'
+29-Nov-2019 04:32:21.159 general: info: flushing caches in all views succeeded
+29-Nov-2019 04:32:42.318 general: info: received control channel command 'querylog on'
+29-Nov-2019 04:32:46.872 general: info: received control channel command 'trace 9'
+29-Nov-2019 04:32:46.872 general: info: debug level is now 9
+29-Nov-2019 04:41:07.470 general: info: received control channel command 'reload'
+29-Nov-2019 04:41:07.470 general: info: loading configuration from '/etc/named.conf'
+29-Nov-2019 04:41:07.470 general: info: reading built-in trust anchors from file '/etc/named.root.key'
+29-Nov-2019 04:41:07.470 general: info: initializing GeoIP Country (IPv4) (type 1) DB
+29-Nov-2019 04:41:07.471 general: info: GEO-106FREE 20160607 Build 1 Copyright (c) 2016 MaxMind 
+29-Nov-2019 04:41:07.471 general: info: initializing GeoIP Country (IPv6) (type 12) DB
+29-Nov-2019 04:41:07.471 general: info: GEO-106FREE 20160607 Build 1 Copy
+29-Nov-2019 04:41:07.471 general: info: GeoIP City (IPv4) (type 2) DB not available
+29-Nov-2019 04:41:07.471 general: info: GeoIP City (IPv4) (type 6) DB not available
+29-Nov-2019 04:41:07.471 general: info: GeoIP City (IPv6) (type 30) DB not available
+29-Nov-2019 04:41:07.471 general: info: GeoIP City (IPv6) (type 31) DB not available
+29-Nov-2019 04:41:07.471 general: info: GeoIP Region (type 3) DB not available
+29-Nov-2019 04:41:07.471 general: info: GeoIP Region (type 7) DB not available
+29-Nov-2019 04:41:07.471 general: info: GeoIP ISP (type 4) DB not available
+29-Nov-2019 04:41:07.471 general: info: GeoIP Org (type 5) DB not available
+29-Nov-2019 04:41:07.471 general: info: GeoIP AS (type 9) DB not available
+29-Nov-2019 04:41:07.471 general: info: GeoIP Domain (type 11) DB not available
+29-Nov-2019 04:41:07.471 general: info: GeoIP NetSpeed (type 10) DB not available
+29-Nov-2019 04:41:07.471 general: info: using default UDP/IPv4 port range: [32768, 60999]
+29-Nov-2019 04:41:07.475 general: info: sizing zone task pool based on 6 zones
+29-Nov-2019 04:41:07.476 config: info: none:104: 'max-cache-size 90%' - setting to 885MB (out of 983MB)
+29-Nov-2019 04:41:07.492 general: info: automatic empty zone: 10.IN-ADDR.ARPA
+29-Nov-2019 04:41:07.492 general: info: automatic empty zone: 16.172.IN-ADDR.ARPA
+29-Nov-2019 04:41:07.493 general: info: automatic empty zone: 17.172.IN-ADDR.ARPA
+29-Nov-2019 04:41:07.493 general: info: automatic empty zone: 18.172.IN-ADDR.ARPA
+29-Nov-2019 04:41:07.493 general: info: automatic empty zone: 19.172.IN-ADDR.ARPA
+29-Nov-2019 04:41:07.493 general: info: automatic empty zone: 20.172.IN-ADDR.ARPA
+29-Nov-2019 04:41:07.494 general: info: automatic empty zone: 21.172.IN-ADDR.ARPA
+29-Nov-2019 04:41:07.494 general: info: automatic empty zone: 22.172.IN-ADDR.ARPA
+29-Nov-2019 04:41:07.494 general: info: automatic empty zone: 23.172.IN-ADDR.ARPA
+29-Nov-2019 04:41:07.495 general: info: automatic empty zone: 24.172.IN-ADDR.ARPA
+29-Nov-2019 04:41:07.495 general: info: automatic empty zone: 25.172.IN-ADDR.ARPA
+29-Nov-2019 04:41:07.495 general: info: automatic empty zone: 26.172.IN-ADDR.ARPA
+29-Nov-2019 04:41:07.495 general: info: automatic empty zone: 27.172.IN-ADDR.ARPA
+29-Nov-2019 04:41:07.496 general: info: automatic empty zone: 28.172.IN-ADDR.ARPA
+29-Nov-2019 04:41:07.496 general: info: automatic empty zone: 29.172.IN-ADDR.ARPA
+29-Nov-2019 04:41:07.496 general: info: automatic empty zone: 30.172.IN-ADDR.ARPA
+29-Nov-2019 04:41:07.496 general: info: automatic empty zone: 31.172.IN-ADDR.ARPA
+29-Nov-2019 04:41:07.497 general: info: automatic empty zone: 168.192.IN-ADDR.ARPA
+29-Nov-2019 04:41:07.497 general: info: automatic empty zone: 64.100.IN-ADDR.ARPA
+29-Nov-2019 04:41:07.497 general: info: automatic empty zone: 65.100.IN-ADDR.ARPA
+29-Nov-2019 04:41:07.497 general: info: automatic empty zone: 66.100.IN-ADDR.ARPA
+29-Nov-2019 04:41:07.497 general: info: automatic empty zone: 67.100.IN-ADDR.ARPA
+29-Nov-2019 04:41:07.497 general: info: automatic empty zone: 68.100.IN-ADDR.ARPA
+29-Nov-2019 04:41:07.497 general: info: automatic empty zone: 69.100.IN-ADDR.ARPA
+29-Nov-2019 04:41:07.497 general: info: automatic empty zone: 70.100.IN-ADDR.ARPA
+29-Nov-2019 04:41:07.497 general: info: automatic empty zone: 71.100.IN-ADDR.ARPA
+29-Nov-2019 04:41:07.497 general: info: automatic empty zone: 72.100.IN-ADDR.ARPA
+29-Nov-2019 04:41:07.497 general: info: automatic empty zone: 73.100.IN-ADDR.ARPA
+29-Nov-2019 04:41:07.497 general: info: automatic empty zone: 74.100.IN-ADDR.ARPA
+29-Nov-2019 04:41:07.497 general: info: automatic empty zone: 75.100.IN-ADDR.ARPA
+29-Nov-2019 04:41:07.497 general: info: automatic empty zone: 76.100.IN-ADDR.ARPA
+29-Nov-2019 04:41:07.497 general: info: automatic empty zone: 77.100.IN-ADDR.ARPA
+29-Nov-2019 04:41:07.497 general: info: automatic empty zone: 78.100.IN-ADDR.ARPA
+29-Nov-2019 04:41:07.497 general: info: automatic empty zone: 79.100.IN-ADDR.ARPA
+29-Nov-2019 04:41:07.497 general: info: automatic empty zone: 80.100.IN-ADDR.ARPA
+29-Nov-2019 04:41:07.497 general: info: automatic empty zone: 81.100.IN-ADDR.ARPA
+29-Nov-2019 04:41:07.497 general: info: automatic empty zone: 82.100.IN-ADDR.ARPA
+29-Nov-2019 04:41:07.497 general: info: automatic empty zone: 83.100.IN-ADDR.ARPA
+29-Nov-2019 04:41:07.497 general: info: automatic empty zone: 84.100.IN-ADDR.ARPA
+29-Nov-2019 04:41:07.497 general: info: automatic empty zone: 85.100.IN-ADDR.ARPA
+29-Nov-2019 04:41:07.497 general: info: automatic empty zone: 86.100.IN-ADDR.ARPA
+29-Nov-2019 04:41:07.497 general: info: automatic empty zone: 87.100.IN-ADDR.ARPA
+29-Nov-2019 04:41:07.497 general: info: automatic empty zone: 88.100.IN-ADDR.ARPA
+29-Nov-2019 04:41:07.497 general: info: automatic empty zone: 89.100.IN-ADDR.ARPA
+29-Nov-2019 04:41:07.497 general: info: automatic empty zone: 90.100.IN-ADDR.ARPA
+29-Nov-2019 04:41:07.497 general: info: automatic empty zone: 91.100.IN-ADDR.ARPA
+29-Nov-2019 04:41:07.497 general: info: automatic empty zone: 92.100.IN-ADDR.ARPA
+29-Nov-2019 04:41:07.497 general: info: automatic empty zone: 93.100.IN-ADDR.ARPA
+29-Nov-2019 04:41:07.498 general: info: automatic empty zone: 94.100.IN-ADDR.ARPA
+29-Nov-2019 04:41:07.498 general: info: automatic empty zone: 95.100.IN-ADDR.ARPA
+29-Nov-2019 04:41:07.498 general: info: automatic empty zone: 96.100.IN-ADDR.ARPA
+29-Nov-2019 04:41:07.498 general: info: automatic empty zone: 97.100.IN-ADDR.ARPA
+29-Nov-2019 04:41:07.500 general: info: automatic empty zone: 98.100.IN-ADDR.ARPA
+29-Nov-2019 04:41:07.500 general: info: automatic empty zone: 99.100.IN-ADDR.ARPA
+29-Nov-2019 04:41:07.500 general: info: automatic empty zone: 100.100.IN-ADDR.ARPA
+29-Nov-2019 04:41:07.500 general: info: automatic empty zone: 101.100.IN-ADDR.ARPA
+29-Nov-2019 04:41:07.500 general: info: automatic empty zone: 102.100.IN-ADDR.ARPA
+29-Nov-2019 04:41:07.500 general: info: automatic empty zone: 103.100.IN-ADDR.ARPA
+29-Nov-2019 04:41:07.500 general: info: automatic empty zone: 104.100.IN-ADDR.ARPA
+29-Nov-2019 04:41:07.500 general: info: automatic empty zone: 105.100.IN-ADDR.ARPA
+29-Nov-2019 04:41:07.500 general: info: automatic empty zone: 106.100.IN-ADDR.ARPA
+29-Nov-2019 04:41:07.500 general: info: automatic empty zone: 107.100.IN-ADDR.ARPA
+29-Nov-2019 04:41:07.500 general: info: automatic empty zone: 108.100.IN-ADDR.ARPA
+29-Nov-2019 04:41:07.500 general: info: automatic empty zone: 109.100.IN-ADDR.ARPA
+29-Nov-2019 04:41:07.500 general: info: automatic empty zone: 110.100.IN-ADDR.ARPA
+29-Nov-2019 04:41:07.500 general: info: automatic empty zone: 111.100.IN-ADDR.ARPA
+29-Nov-2019 04:41:07.500 general: info: automatic empty zone: 112.100.IN-ADDR.ARPA
+29-Nov-2019 04:41:07.500 general: info: automatic empty zone: 113.100.IN-ADDR.ARPA
+29-Nov-2019 04:41:07.500 general: info: automatic empty zone: 114.100.IN-ADDR.ARPA
+29-Nov-2019 04:41:07.500 general: info: automatic empty zone: 115.100.IN-ADDR.ARPA
+29-Nov-2019 04:41:07.500 general: info: automatic empty zone: 116.100.IN-ADDR.ARPA
+29-Nov-2019 04:41:07.500 general: info: automatic empty zone: 117.100.IN-ADDR.ARPA
+29-Nov-2019 04:41:07.500 general: info: automatic empty zone: 118.100.IN-ADDR.ARPA
+29-Nov-2019 04:41:07.500 general: info: automatic empty zone: 119.100.IN-ADDR.ARPA
+29-Nov-2019 04:41:07.500 general: info: automatic empty zone: 120.100.IN-ADDR.ARPA
+29-Nov-2019 04:41:07.500 general: info: automatic empty zone: 121.100.IN-ADDR.ARPA
+29-Nov-2019 04:41:07.500 general: info: automatic empty zone: 122.100.IN-ADDR.ARPA
+29-Nov-2019 04:41:07.500 general: info: automatic empty zone: 123.100.IN-ADDR.ARPA
+29-Nov-2019 04:41:07.500 general: info: automatic empty zone: 124.100.IN-ADDR.ARPA
+29-Nov-2019 04:41:07.500 general: info: automatic empty zone: 125.100.IN-ADDR.ARPA
+29-Nov-2019 04:41:07.500 general: info: automatic empty zone: 126.100.IN-ADDR.ARPA
+29-Nov-2019 04:41:07.500 general: info: automatic empty zone: 127.100.IN-ADDR.ARPA
+29-Nov-2019 04:41:07.500 general: info: automatic empty zone: 127.IN-ADDR.ARPA
+29-Nov-2019 04:41:07.501 general: info: automatic empty zone: 254.169.IN-ADDR.ARPA
+29-Nov-2019 04:41:07.501 general: info: automatic empty zone: 2.0.192.IN-ADDR.ARPA
+29-Nov-2019 04:41:07.501 general: info: automatic empty zone: 100.51.198.IN-ADDR.ARPA
+29-Nov-2019 04:41:07.501 general: info: automatic empty zone: 113.0.203.IN-ADDR.ARPA
+29-Nov-2019 04:41:07.501 general: info: automatic empty zone: 255.255.255.255.IN-ADDR.ARPA
+29-Nov-2019 04:41:07.501 general: info: automatic empty zone: 0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA
+29-Nov-2019 04:41:07.501 general: info: automatic empty zone: D.F.IP6.ARPA
+29-Nov-2019 04:41:07.501 general: info: automatic empty zone: 8.E.F.IP6.ARPA
+29-Nov-2019 04:41:07.501 general: info: automatic empty zone: 9.E.F.IP6.ARPA
+29-Nov-2019 04:41:07.501 general: info: automatic empty zone: A.E.F.IP6.ARPA
+29-Nov-2019 04:41:07.501 general: info: automatic empty zone: B.E.F.IP6.ARPA
+29-Nov-2019 04:41:07.501 general: info: automatic empty zone: 8.B.D.0.1.0.0.2.IP6.ARPA
+29-Nov-2019 04:41:07.501 general: info: automatic empty zone: EMPTY.AS112.ARPA
+29-Nov-2019 04:41:07.501 general: info: automatic empty zone: HOME.ARPA
+29-Nov-2019 04:41:07.503 config: info: none:104: 'max-cache-size 90%' - setting to 885MB (out of 983MB)
+29-Nov-2019 04:41:07.533 general: info: configuring command channel from '/etc/rndc.key'
+29-Nov-2019 04:41:07.534 general: info: reloading configuration succeeded
+29-Nov-2019 04:41:07.534 general: info: reloading zones succeeded
+29-Nov-2019 04:41:07.550 general: warning: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+29-Nov-2019 04:41:07.555 general: notice: all zones loaded
+29-Nov-2019 04:41:07.557 general: notice: running
+29-Nov-2019 04:44:40.795 general: info: received control channel command 'stop'
+29-Nov-2019 04:44:40.796 general: info: shutting down: flushing changes
+29-Nov-2019 04:44:40.796 general: notice: stopping command channel on 127.0.0.1#953
+29-Nov-2019 04:44:40.796 network: info: no longer listening on 127.0.0.1#53
+29-Nov-2019 04:44:40.796 network: info: no longer listening on 10.1.1.108#53
+29-Nov-2019 04:44:40.811 general: notice: exiting
+29-Nov-2019 04:44:46.796 general: info: managed-keys-zone: loaded serial 0
+29-Nov-2019 04:44:46.796 general: info: zone 0.in-addr.arpa/IN: loaded serial 0
+29-Nov-2019 04:44:46.799 general: info: zone 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa/IN: loaded serial 0
+29-Nov-2019 04:44:46.802 general: info: zone 1.0.0.127.in-addr.arpa/IN: loaded serial 0
+29-Nov-2019 04:44:46.802 general: info: zone localhost.localdomain/IN: loaded serial 0
+29-Nov-2019 04:44:46.804 general: info: zone localhost/IN: loaded serial 0
+29-Nov-2019 04:44:46.804 general: notice: all zones loaded
+29-Nov-2019 04:44:46.808 general: notice: running
+29-Nov-2019 04:44:46.812 general: warning: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+29-Nov-2019 04:45:06.329 general: info: received control channel command 'reconfig'
+29-Nov-2019 04:45:06.329 general: info: loading configuration from '/etc/named.conf'
+29-Nov-2019 04:45:06.330 general: info: reading built-in trust anchors from file '/etc/named.root.key'
+29-Nov-2019 04:45:06.330 general: info: initializing GeoIP Country (IPv4) (type 1) DB
+29-Nov-2019 04:45:06.330 general: info: GEO-106FREE 20160607 Build 1 Copyright (c) 2016 MaxMind 
+29-Nov-2019 04:45:06.330 general: info: initializing GeoIP Country (IPv6) (type 12) DB
+29-Nov-2019 04:45:06.330 general: info: GEO-106FREE 20160607 Build 1 Copy
+29-Nov-2019 04:45:06.330 general: info: GeoIP City (IPv4) (type 2) DB not available
+29-Nov-2019 04:45:06.330 general: info: GeoIP City (IPv4) (type 6) DB not available
+29-Nov-2019 04:45:06.330 general: info: GeoIP City (IPv6) (type 30) DB not available
+29-Nov-2019 04:45:06.330 general: info: GeoIP City (IPv6) (type 31) DB not available
+29-Nov-2019 04:45:06.330 general: info: GeoIP Region (type 3) DB not available
+29-Nov-2019 04:45:06.330 general: info: GeoIP Region (type 7) DB not available
+29-Nov-2019 04:45:06.330 general: info: GeoIP ISP (type 4) DB not available
+29-Nov-2019 04:45:06.330 general: info: GeoIP Org (type 5) DB not available
+29-Nov-2019 04:45:06.330 general: info: GeoIP AS (type 9) DB not available
+29-Nov-2019 04:45:06.330 general: info: GeoIP Domain (type 11) DB not available
+29-Nov-2019 04:45:06.330 general: info: GeoIP NetSpeed (type 10) DB not available
+29-Nov-2019 04:45:06.330 general: info: using default UDP/IPv4 port range: [32768, 60999]
+29-Nov-2019 04:45:06.335 general: info: sizing zone task pool based on 6 zones
+29-Nov-2019 04:45:06.335 config: info: none:104: 'max-cache-size 90%' - setting to 885MB (out of 983MB)
+29-Nov-2019 04:45:06.351 general: info: automatic empty zone: 10.IN-ADDR.ARPA
+29-Nov-2019 04:45:06.351 general: info: automatic empty zone: 16.172.IN-ADDR.ARPA
+29-Nov-2019 04:45:06.351 general: info: automatic empty zone: 17.172.IN-ADDR.ARPA
+29-Nov-2019 04:45:06.352 general: info: automatic empty zone: 18.172.IN-ADDR.ARPA
+29-Nov-2019 04:45:06.352 general: info: automatic empty zone: 19.172.IN-ADDR.ARPA
+29-Nov-2019 04:45:06.352 general: info: automatic empty zone: 20.172.IN-ADDR.ARPA
+29-Nov-2019 04:45:06.353 general: info: automatic empty zone: 21.172.IN-ADDR.ARPA
+29-Nov-2019 04:45:06.353 general: info: automatic empty zone: 22.172.IN-ADDR.ARPA
+29-Nov-2019 04:45:06.353 general: info: automatic empty zone: 23.172.IN-ADDR.ARPA
+29-Nov-2019 04:45:06.353 general: info: automatic empty zone: 24.172.IN-ADDR.ARPA
+29-Nov-2019 04:45:06.354 general: info: automatic empty zone: 25.172.IN-ADDR.ARPA
+29-Nov-2019 04:45:06.354 general: info: automatic empty zone: 26.172.IN-ADDR.ARPA
+29-Nov-2019 04:45:06.354 general: info: automatic empty zone: 27.172.IN-ADDR.ARPA
+29-Nov-2019 04:45:06.355 general: info: automatic empty zone: 28.172.IN-ADDR.ARPA
+29-Nov-2019 04:45:06.355 general: info: automatic empty zone: 29.172.IN-ADDR.ARPA
+29-Nov-2019 04:45:06.355 general: info: automatic empty zone: 30.172.IN-ADDR.ARPA
+29-Nov-2019 04:45:06.355 general: info: automatic empty zone: 31.172.IN-ADDR.ARPA
+29-Nov-2019 04:45:06.356 general: info: automatic empty zone: 168.192.IN-ADDR.ARPA
+29-Nov-2019 04:45:06.356 general: info: automatic empty zone: 64.100.IN-ADDR.ARPA
+29-Nov-2019 04:45:06.356 general: info: automatic empty zone: 65.100.IN-ADDR.ARPA
+29-Nov-2019 04:45:06.356 general: info: automatic empty zone: 66.100.IN-ADDR.ARPA
+29-Nov-2019 04:45:06.356 general: info: automatic empty zone: 67.100.IN-ADDR.ARPA
+29-Nov-2019 04:45:06.356 general: info: automatic empty zone: 68.100.IN-ADDR.ARPA
+29-Nov-2019 04:45:06.356 general: info: automatic empty zone: 69.100.IN-ADDR.ARPA
+29-Nov-2019 04:45:06.356 general: info: automatic empty zone: 70.100.IN-ADDR.ARPA
+29-Nov-2019 04:45:06.356 general: info: automatic empty zone: 71.100.IN-ADDR.ARPA
+29-Nov-2019 04:45:06.356 general: info: automatic empty zone: 72.100.IN-ADDR.ARPA
+29-Nov-2019 04:45:06.356 general: info: automatic empty zone: 73.100.IN-ADDR.ARPA
+29-Nov-2019 04:45:06.356 general: info: automatic empty zone: 74.100.IN-ADDR.ARPA
+29-Nov-2019 04:45:06.356 general: info: automatic empty zone: 75.100.IN-ADDR.ARPA
+29-Nov-2019 04:45:06.356 general: info: automatic empty zone: 76.100.IN-ADDR.ARPA
+29-Nov-2019 04:45:06.356 general: info: automatic empty zone: 77.100.IN-ADDR.ARPA
+29-Nov-2019 04:45:06.356 general: info: automatic empty zone: 78.100.IN-ADDR.ARPA
+29-Nov-2019 04:45:06.356 general: info: automatic empty zone: 79.100.IN-ADDR.ARPA
+29-Nov-2019 04:45:06.356 general: info: automatic empty zone: 80.100.IN-ADDR.ARPA
+29-Nov-2019 04:45:06.356 general: info: automatic empty zone: 81.100.IN-ADDR.ARPA
+29-Nov-2019 04:45:06.356 general: info: automatic empty zone: 82.100.IN-ADDR.ARPA
+29-Nov-2019 04:45:06.356 general: info: automatic empty zone: 83.100.IN-ADDR.ARPA
+29-Nov-2019 04:45:06.356 general: info: automatic empty zone: 84.100.IN-ADDR.ARPA
+29-Nov-2019 04:45:06.356 general: info: automatic empty zone: 85.100.IN-ADDR.ARPA
+29-Nov-2019 04:45:06.356 general: info: automatic empty zone: 86.100.IN-ADDR.ARPA
+29-Nov-2019 04:45:06.356 general: info: automatic empty zone: 87.100.IN-ADDR.ARPA
+29-Nov-2019 04:45:06.356 general: info: automatic empty zone: 88.100.IN-ADDR.ARPA
+29-Nov-2019 04:45:06.356 general: info: automatic empty zone: 89.100.IN-ADDR.ARPA
+29-Nov-2019 04:45:06.356 general: info: automatic empty zone: 90.100.IN-ADDR.ARPA
+29-Nov-2019 04:45:06.356 general: info: automatic empty zone: 91.100.IN-ADDR.ARPA
+29-Nov-2019 04:45:06.356 general: info: automatic empty zone: 92.100.IN-ADDR.ARPA
+29-Nov-2019 04:45:06.356 general: info: automatic empty zone: 93.100.IN-ADDR.ARPA
+29-Nov-2019 04:45:06.356 general: info: automatic empty zone: 94.100.IN-ADDR.ARPA
+29-Nov-2019 04:45:06.356 general: info: automatic empty zone: 95.100.IN-ADDR.ARPA
+29-Nov-2019 04:45:06.356 general: info: automatic empty zone: 96.100.IN-ADDR.ARPA
+29-Nov-2019 04:45:06.356 general: info: automatic empty zone: 97.100.IN-ADDR.ARPA
+29-Nov-2019 04:45:06.356 general: info: automatic empty zone: 98.100.IN-ADDR.ARPA
+29-Nov-2019 04:45:06.356 general: info: automatic empty zone: 99.100.IN-ADDR.ARPA
+29-Nov-2019 04:45:06.356 general: info: automatic empty zone: 100.100.IN-ADDR.ARPA
+29-Nov-2019 04:45:06.356 general: info: automatic empty zone: 101.100.IN-ADDR.ARPA
+29-Nov-2019 04:45:06.356 general: info: automatic empty zone: 102.100.IN-ADDR.ARPA
+29-Nov-2019 04:45:06.356 general: info: automatic empty zone: 103.100.IN-ADDR.ARPA
+29-Nov-2019 04:45:06.356 general: info: automatic empty zone: 104.100.IN-ADDR.ARPA
+29-Nov-2019 04:45:06.356 general: info: automatic empty zone: 105.100.IN-ADDR.ARPA
+29-Nov-2019 04:45:06.356 general: info: automatic empty zone: 106.100.IN-ADDR.ARPA
+29-Nov-2019 04:45:06.356 general: info: automatic empty zone: 107.100.IN-ADDR.ARPA
+29-Nov-2019 04:45:06.356 general: info: automatic empty zone: 108.100.IN-ADDR.ARPA
+29-Nov-2019 04:45:06.356 general: info: automatic empty zone: 109.100.IN-ADDR.ARPA
+29-Nov-2019 04:45:06.356 general: info: automatic empty zone: 110.100.IN-ADDR.ARPA
+29-Nov-2019 04:45:06.356 general: info: automatic empty zone: 111.100.IN-ADDR.ARPA
+29-Nov-2019 04:45:06.356 general: info: automatic empty zone: 112.100.IN-ADDR.ARPA
+29-Nov-2019 04:45:06.356 general: info: automatic empty zone: 113.100.IN-ADDR.ARPA
+29-Nov-2019 04:45:06.356 general: info: automatic empty zone: 114.100.IN-ADDR.ARPA
+29-Nov-2019 04:45:06.356 general: info: automatic empty zone: 115.100.IN-ADDR.ARPA
+29-Nov-2019 04:45:06.356 general: info: automatic empty zone: 116.100.IN-ADDR.ARPA
+29-Nov-2019 04:45:06.357 general: info: automatic empty zone: 117.100.IN-ADDR.ARPA
+29-Nov-2019 04:45:06.357 general: info: automatic empty zone: 118.100.IN-ADDR.ARPA
+29-Nov-2019 04:45:06.357 general: info: automatic empty zone: 119.100.IN-ADDR.ARPA
+29-Nov-2019 04:45:06.357 general: info: automatic empty zone: 120.100.IN-ADDR.ARPA
+29-Nov-2019 04:45:06.357 general: info: automatic empty zone: 121.100.IN-ADDR.ARPA
+29-Nov-2019 04:45:06.357 general: info: automatic empty zone: 122.100.IN-ADDR.ARPA
+29-Nov-2019 04:45:06.357 general: info: automatic empty zone: 123.100.IN-ADDR.ARPA
+29-Nov-2019 04:45:06.357 general: info: automatic empty zone: 124.100.IN-ADDR.ARPA
+29-Nov-2019 04:45:06.357 general: info: automatic empty zone: 125.100.IN-ADDR.ARPA
+29-Nov-2019 04:45:06.357 general: info: automatic empty zone: 126.100.IN-ADDR.ARPA
+29-Nov-2019 04:45:06.357 general: info: automatic empty zone: 127.100.IN-ADDR.ARPA
+29-Nov-2019 04:45:06.357 general: info: automatic empty zone: 127.IN-ADDR.ARPA
+29-Nov-2019 04:45:06.357 general: info: automatic empty zone: 254.169.IN-ADDR.ARPA
+29-Nov-2019 04:45:06.357 general: info: automatic empty zone: 2.0.192.IN-ADDR.ARPA
+29-Nov-2019 04:45:06.357 general: info: automatic empty zone: 100.51.198.IN-ADDR.ARPA
+29-Nov-2019 04:45:06.357 general: info: automatic empty zone: 113.0.203.IN-ADDR.ARPA
+29-Nov-2019 04:45:06.357 general: info: automatic empty zone: 255.255.255.255.IN-ADDR.ARPA
+29-Nov-2019 04:45:06.357 general: info: automatic empty zone: 0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA
+29-Nov-2019 04:45:06.357 general: info: automatic empty zone: D.F.IP6.ARPA
+29-Nov-2019 04:45:06.357 general: info: automatic empty zone: 8.E.F.IP6.ARPA
+29-Nov-2019 04:45:06.357 general: info: automatic empty zone: 9.E.F.IP6.ARPA
+29-Nov-2019 04:45:06.357 general: info: automatic empty zone: A.E.F.IP6.ARPA
+29-Nov-2019 04:45:06.357 general: info: automatic empty zone: B.E.F.IP6.ARPA
+29-Nov-2019 04:45:06.357 general: info: automatic empty zone: 8.B.D.0.1.0.0.2.IP6.ARPA
+29-Nov-2019 04:45:06.357 general: info: automatic empty zone: EMPTY.AS112.ARPA
+29-Nov-2019 04:45:06.357 general: info: automatic empty zone: HOME.ARPA
+29-Nov-2019 04:45:06.361 config: info: none:104: 'max-cache-size 90%' - setting to 885MB (out of 983MB)
+29-Nov-2019 04:45:06.389 general: info: configuring command channel from '/etc/rndc.key'
+29-Nov-2019 04:45:06.394 general: info: reloading configuration succeeded
+29-Nov-2019 04:45:06.394 general: info: scheduled loading new zones
+29-Nov-2019 04:45:06.418 general: warning: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+29-Nov-2019 04:45:06.422 general: info: any newly configured zones are now loaded
+29-Nov-2019 04:45:06.422 general: notice: running
+29-Nov-2019 04:46:59.995 general: info: received control channel command 'managed-keys status'
+29-Nov-2019 04:47:30.146 general: info: received control channel command 'managed-keys sync'
+29-Nov-2019 04:47:47.027 general: info: received control channel command 'stop'
+29-Nov-2019 04:47:47.028 general: info: shutting down: flushing changes
+29-Nov-2019 04:47:47.028 general: notice: stopping command channel on 127.0.0.1#953
+29-Nov-2019 04:47:47.028 network: info: no longer listening on 127.0.0.1#53
+29-Nov-2019 04:47:47.028 network: info: no longer listening on 10.1.1.108#53
+29-Nov-2019 04:47:47.041 general: notice: exiting
+29-Nov-2019 04:47:47.154 general: info: managed-keys-zone: journal file is out of date: removing journal file
+29-Nov-2019 04:47:47.155 general: info: managed-keys-zone: loaded serial 3
+29-Nov-2019 04:47:47.155 general: info: zone 0.in-addr.arpa/IN: loaded serial 0
+29-Nov-2019 04:47:47.162 general: info: zone 1.0.0.127.in-addr.arpa/IN: loaded serial 0
+29-Nov-2019 04:47:47.163 general: info: zone 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa/IN: loaded serial 0
+29-Nov-2019 04:47:47.164 general: info: zone localhost/IN: loaded serial 0
+29-Nov-2019 04:47:47.165 general: info: zone localhost.localdomain/IN: loaded serial 0
+29-Nov-2019 04:47:47.165 general: notice: all zones loaded
+29-Nov-2019 04:47:47.173 general: notice: running
+29-Nov-2019 04:47:47.175 general: warning: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+29-Nov-2019 04:48:00.062 general: info: received control channel command 'managed-keys status'
+29-Nov-2019 04:48:29.327 general: info: received control channel command 'managed-keys help'
+29-Nov-2019 04:49:21.943 general: info: received control channel command 'loadkeys'
+29-Nov-2019 04:49:32.653 general: info: received control channel command 'loadkeys .'
+29-Nov-2019 04:49:38.745 general: info: received control channel command 'loadkeys .'
+29-Nov-2019 04:50:06.364 general: info: received control channel command 'loadkeys zone _default'
+29-Nov-2019 04:50:20.320 general: info: received control channel command 'loadkeys zone IN _default'
+29-Nov-2019 04:50:39.318 general: info: received control channel command 'managed-keys refreshs'
+29-Nov-2019 04:50:41.658 general: info: received control channel command 'managed-keys refresh'
+29-Nov-2019 04:50:41.661 general: warning: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+29-Nov-2019 04:50:49.165 general: info: received control channel command 'managed-keys status'
+29-Nov-2019 04:51:04.507 general: info: received control channel command 'managed-keys sync'
+29-Nov-2019 04:51:07.191 general: info: received control channel command 'managed-keys status'
+29-Nov-2019 04:51:45.209 general: info: received control channel command 'managed-keys refresh'
+29-Nov-2019 04:51:45.211 general: warning: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+29-Nov-2019 04:51:48.590 general: info: received control channel command 'managed-keys status'
+29-Nov-2019 04:53:11.050 general: info: received control channel command 'reload'
+29-Nov-2019 04:53:11.050 general: info: loading configuration from '/etc/named.conf'
+29-Nov-2019 04:53:11.051 general: info: reading built-in trust anchors from file '/etc/named.root.key'
+29-Nov-2019 04:53:11.051 general: info: initializing GeoIP Country (IPv4) (type 1) DB
+29-Nov-2019 04:53:11.051 general: info: GEO-106FREE 20160607 Build 1 Copyright (c) 2016 MaxMind 
+29-Nov-2019 04:53:11.051 general: info: initializing GeoIP Country (IPv6) (type 12) DB
+29-Nov-2019 04:53:11.051 general: info: GEO-106FREE 20160607 Build 1 Copy
+29-Nov-2019 04:53:11.051 general: info: GeoIP City (IPv4) (type 2) DB not available
+29-Nov-2019 04:53:11.051 general: info: GeoIP City (IPv4) (type 6) DB not available
+29-Nov-2019 04:53:11.051 general: info: GeoIP City (IPv6) (type 30) DB not available
+29-Nov-2019 04:53:11.051 general: info: GeoIP City (IPv6) (type 31) DB not available
+29-Nov-2019 04:53:11.051 general: info: GeoIP Region (type 3) DB not available
+29-Nov-2019 04:53:11.051 general: info: GeoIP Region (type 7) DB not available
+29-Nov-2019 04:53:11.051 general: info: GeoIP ISP (type 4) DB not available
+29-Nov-2019 04:53:11.051 general: info: GeoIP Org (type 5) DB not available
+29-Nov-2019 04:53:11.051 general: info: GeoIP AS (type 9) DB not available
+29-Nov-2019 04:53:11.051 general: info: GeoIP Domain (type 11) DB not available
+29-Nov-2019 04:53:11.051 general: info: GeoIP NetSpeed (type 10) DB not available
+29-Nov-2019 04:53:11.051 general: info: using default UDP/IPv4 port range: [32768, 60999]
+29-Nov-2019 04:53:11.056 general: info: sizing zone task pool based on 6 zones
+29-Nov-2019 04:53:11.056 config: info: none:104: 'max-cache-size 90%' - setting to 885MB (out of 983MB)
+29-Nov-2019 04:53:11.072 general: info: automatic empty zone: 10.IN-ADDR.ARPA
+29-Nov-2019 04:53:11.072 general: info: automatic empty zone: 16.172.IN-ADDR.ARPA
+29-Nov-2019 04:53:11.072 general: info: automatic empty zone: 17.172.IN-ADDR.ARPA
+29-Nov-2019 04:53:11.073 general: info: automatic empty zone: 18.172.IN-ADDR.ARPA
+29-Nov-2019 04:53:11.073 general: info: automatic empty zone: 19.172.IN-ADDR.ARPA
+29-Nov-2019 04:53:11.073 general: info: automatic empty zone: 20.172.IN-ADDR.ARPA
+29-Nov-2019 04:53:11.074 general: info: automatic empty zone: 21.172.IN-ADDR.ARPA
+29-Nov-2019 04:53:11.074 general: info: automatic empty zone: 22.172.IN-ADDR.ARPA
+29-Nov-2019 04:53:11.074 general: info: automatic empty zone: 23.172.IN-ADDR.ARPA
+29-Nov-2019 04:53:11.074 general: info: automatic empty zone: 24.172.IN-ADDR.ARPA
+29-Nov-2019 04:53:11.075 general: info: automatic empty zone: 25.172.IN-ADDR.ARPA
+29-Nov-2019 04:53:11.075 general: info: automatic empty zone: 26.172.IN-ADDR.ARPA
+29-Nov-2019 04:53:11.075 general: info: automatic empty zone: 27.172.IN-ADDR.ARPA
+29-Nov-2019 04:53:11.075 general: info: automatic empty zone: 28.172.IN-ADDR.ARPA
+29-Nov-2019 04:53:11.076 general: info: automatic empty zone: 29.172.IN-ADDR.ARPA
+29-Nov-2019 04:53:11.076 general: info: automatic empty zone: 30.172.IN-ADDR.ARPA
+29-Nov-2019 04:53:11.076 general: info: automatic empty zone: 31.172.IN-ADDR.ARPA
+29-Nov-2019 04:53:11.077 general: info: automatic empty zone: 168.192.IN-ADDR.ARPA
+29-Nov-2019 04:53:11.077 general: info: automatic empty zone: 64.100.IN-ADDR.ARPA
+29-Nov-2019 04:53:11.077 general: info: automatic empty zone: 65.100.IN-ADDR.ARPA
+29-Nov-2019 04:53:11.077 general: info: automatic empty zone: 66.100.IN-ADDR.ARPA
+29-Nov-2019 04:53:11.077 general: info: automatic empty zone: 67.100.IN-ADDR.ARPA
+29-Nov-2019 04:53:11.077 general: info: automatic empty zone: 68.100.IN-ADDR.ARPA
+29-Nov-2019 04:53:11.077 general: info: automatic empty zone: 69.100.IN-ADDR.ARPA
+29-Nov-2019 04:53:11.077 general: info: automatic empty zone: 70.100.IN-ADDR.ARPA
+29-Nov-2019 04:53:11.077 general: info: automatic empty zone: 71.100.IN-ADDR.ARPA
+29-Nov-2019 04:53:11.077 general: info: automatic empty zone: 72.100.IN-ADDR.ARPA
+29-Nov-2019 04:53:11.077 general: info: automatic empty zone: 73.100.IN-ADDR.ARPA
+29-Nov-2019 04:53:11.077 general: info: automatic empty zone: 74.100.IN-ADDR.ARPA
+29-Nov-2019 04:53:11.077 general: info: automatic empty zone: 75.100.IN-ADDR.ARPA
+29-Nov-2019 04:53:11.077 general: info: automatic empty zone: 76.100.IN-ADDR.ARPA
+29-Nov-2019 04:53:11.077 general: info: automatic empty zone: 77.100.IN-ADDR.ARPA
+29-Nov-2019 04:53:11.077 general: info: automatic empty zone: 78.100.IN-ADDR.ARPA
+29-Nov-2019 04:53:11.077 general: info: automatic empty zone: 79.100.IN-ADDR.ARPA
+29-Nov-2019 04:53:11.077 general: info: automatic empty zone: 80.100.IN-ADDR.ARPA
+29-Nov-2019 04:53:11.077 general: info: automatic empty zone: 81.100.IN-ADDR.ARPA
+29-Nov-2019 04:53:11.077 general: info: automatic empty zone: 82.100.IN-ADDR.ARPA
+29-Nov-2019 04:53:11.077 general: info: automatic empty zone: 83.100.IN-ADDR.ARPA
+29-Nov-2019 04:53:11.077 general: info: automatic empty zone: 84.100.IN-ADDR.ARPA
+29-Nov-2019 04:53:11.077 general: info: automatic empty zone: 85.100.IN-ADDR.ARPA
+29-Nov-2019 04:53:11.077 general: info: automatic empty zone: 86.100.IN-ADDR.ARPA
+29-Nov-2019 04:53:11.077 general: info: automatic empty zone: 87.100.IN-ADDR.ARPA
+29-Nov-2019 04:53:11.077 general: info: automatic empty zone: 88.100.IN-ADDR.ARPA
+29-Nov-2019 04:53:11.077 general: info: automatic empty zone: 89.100.IN-ADDR.ARPA
+29-Nov-2019 04:53:11.077 general: info: automatic empty zone: 90.100.IN-ADDR.ARPA
+29-Nov-2019 04:53:11.077 general: info: automatic empty zone: 91.100.IN-ADDR.ARPA
+29-Nov-2019 04:53:11.077 general: info: automatic empty zone: 92.100.IN-ADDR.ARPA
+29-Nov-2019 04:53:11.077 general: info: automatic empty zone: 93.100.IN-ADDR.ARPA
+29-Nov-2019 04:53:11.077 general: info: automatic empty zone: 94.100.IN-ADDR.ARPA
+29-Nov-2019 04:53:11.077 general: info: automatic empty zone: 95.100.IN-ADDR.ARPA
+29-Nov-2019 04:53:11.077 general: info: automatic empty zone: 96.100.IN-ADDR.ARPA
+29-Nov-2019 04:53:11.077 general: info: automatic empty zone: 97.100.IN-ADDR.ARPA
+29-Nov-2019 04:53:11.077 general: info: automatic empty zone: 98.100.IN-ADDR.ARPA
+29-Nov-2019 04:53:11.077 general: info: automatic empty zone: 99.100.IN-ADDR.ARPA
+29-Nov-2019 04:53:11.077 general: info: automatic empty zone: 100.100.IN-ADDR.ARPA
+29-Nov-2019 04:53:11.077 general: info: automatic empty zone: 101.100.IN-ADDR.ARPA
+29-Nov-2019 04:53:11.077 general: info: automatic empty zone: 102.100.IN-ADDR.ARPA
+29-Nov-2019 04:53:11.077 general: info: automatic empty zone: 103.100.IN-ADDR.ARPA
+29-Nov-2019 04:53:11.077 general: info: automatic empty zone: 104.100.IN-ADDR.ARPA
+29-Nov-2019 04:53:11.077 general: info: automatic empty zone: 105.100.IN-ADDR.ARPA
+29-Nov-2019 04:53:11.077 general: info: automatic empty zone: 106.100.IN-ADDR.ARPA
+29-Nov-2019 04:53:11.077 general: info: automatic empty zone: 107.100.IN-ADDR.ARPA
+29-Nov-2019 04:53:11.077 general: info: automatic empty zone: 108.100.IN-ADDR.ARPA
+29-Nov-2019 04:53:11.077 general: info: automatic empty zone: 109.100.IN-ADDR.ARPA
+29-Nov-2019 04:53:11.077 general: info: automatic empty zone: 110.100.IN-ADDR.ARPA
+29-Nov-2019 04:53:11.077 general: info: automatic empty zone: 111.100.IN-ADDR.ARPA
+29-Nov-2019 04:53:11.077 general: info: automatic empty zone: 112.100.IN-ADDR.ARPA
+29-Nov-2019 04:53:11.077 general: info: automatic empty zone: 113.100.IN-ADDR.ARPA
+29-Nov-2019 04:53:11.077 general: info: automatic empty zone: 114.100.IN-ADDR.ARPA
+29-Nov-2019 04:53:11.077 general: info: automatic empty zone: 115.100.IN-ADDR.ARPA
+29-Nov-2019 04:53:11.077 general: info: automatic empty zone: 116.100.IN-ADDR.ARPA
+29-Nov-2019 04:53:11.077 general: info: automatic empty zone: 117.100.IN-ADDR.ARPA
+29-Nov-2019 04:53:11.077 general: info: automatic empty zone: 118.100.IN-ADDR.ARPA
+29-Nov-2019 04:53:11.077 general: info: automatic empty zone: 119.100.IN-ADDR.ARPA
+29-Nov-2019 04:53:11.077 general: info: automatic empty zone: 120.100.IN-ADDR.ARPA
+29-Nov-2019 04:53:11.077 general: info: automatic empty zone: 121.100.IN-ADDR.ARPA
+29-Nov-2019 04:53:11.078 general: info: automatic empty zone: 122.100.IN-ADDR.ARPA
+29-Nov-2019 04:53:11.078 general: info: automatic empty zone: 123.100.IN-ADDR.ARPA
+29-Nov-2019 04:53:11.078 general: info: automatic empty zone: 124.100.IN-ADDR.ARPA
+29-Nov-2019 04:53:11.078 general: info: automatic empty zone: 125.100.IN-ADDR.ARPA
+29-Nov-2019 04:53:11.081 general: info: automatic empty zone: 126.100.IN-ADDR.ARPA
+29-Nov-2019 04:53:11.081 general: info: automatic empty zone: 127.100.IN-ADDR.ARPA
+29-Nov-2019 04:53:11.081 general: info: automatic empty zone: 127.IN-ADDR.ARPA
+29-Nov-2019 04:53:11.081 general: info: automatic empty zone: 254.169.IN-ADDR.ARPA
+29-Nov-2019 04:53:11.081 general: info: automatic empty zone: 2.0.192.IN-ADDR.ARPA
+29-Nov-2019 04:53:11.081 general: info: automatic empty zone: 100.51.198.IN-ADDR.ARPA
+29-Nov-2019 04:53:11.081 general: info: automatic empty zone: 113.0.203.IN-ADDR.ARPA
+29-Nov-2019 04:53:11.081 general: info: automatic empty zone: 255.255.255.255.IN-ADDR.ARPA
+29-Nov-2019 04:53:11.081 general: info: automatic empty zone: 0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA
+29-Nov-2019 04:53:11.081 general: info: automatic empty zone: D.F.IP6.ARPA
+29-Nov-2019 04:53:11.081 general: info: automatic empty zone: 8.E.F.IP6.ARPA
+29-Nov-2019 04:53:11.081 general: info: automatic empty zone: 9.E.F.IP6.ARPA
+29-Nov-2019 04:53:11.081 general: info: automatic empty zone: A.E.F.IP6.ARPA
+29-Nov-2019 04:53:11.081 general: info: automatic empty zone: B.E.F.IP6.ARPA
+29-Nov-2019 04:53:11.081 general: info: automatic empty zone: 8.B.D.0.1.0.0.2.IP6.ARPA
+29-Nov-2019 04:53:11.081 general: info: automatic empty zone: EMPTY.AS112.ARPA
+29-Nov-2019 04:53:11.081 general: info: automatic empty zone: HOME.ARPA
+29-Nov-2019 04:53:11.086 config: info: none:104: 'max-cache-size 90%' - setting to 885MB (out of 983MB)
+29-Nov-2019 04:53:11.127 general: info: configuring command channel from '/etc/rndc.key'

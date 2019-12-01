@@ -1,0 +1,16 @@
+$ORIGIN 1.1.10.in-addr.arpa.
+$TTL 86400
+@ IN SOA dns.example.com. root.example.com. (
+2019112101 ;Serial
+3600 ;Refresh
+1800 ;Retry
+604800 ;Expire
+120 ;Minimum TTL
+)
+;Name Server Information
+@ IN NS dns.example.com.
+;Reverse lookup for Name Server
+108 IN PTR dns.shared.example.com.
+;PTR Record IP address to HostName
+100 IN PTR www.shared.com.
+101 IN PTR mail.shared.com.

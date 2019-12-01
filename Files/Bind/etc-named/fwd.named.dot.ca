@@ -1,0 +1,139 @@
+$ORIGIN .
+$TTL 86400
+@ IN SOA dns.example.com. root.example.com. (
+2019112101 ;Serial
+3600 ;Refresh
+1800 ;Retry
+604800 ;Expire
+120 ;Minimum TTL
+)
+;Name Server Information
+@			518400	IN	NS	dns.example.com.
+;; @ IN NS dns.example.com.
+;IP address of Name Server
+dns.example.com.	 300	IN 	A 	10.3.3.22
+
+$ORIGIN com.
+;Name Server Information
+@			518400	IN	NS	dns.example.com.
+;IP address of Name Server
+dns.example.com. 	300	IN 	A 	10.3.3.22
+
+$ORIGIN net.
+;Name Server Information
+@                       518400  IN      NS      dns.example.com.
+;IP address of Name Server
+dns.example.com. 	300	IN 	A 	10.3.3.22
+
+$ORIGIN org.
+;Name Server Information
+@			518400	IN	NS	dns.example.com.
+;IP address of Name Server
+dns.example.com. 	300	IN 	A 	10.3.3.22
+
+$ORIGIN co.uk.
+;Name Server Information
+@                       518400  IN      NS      dns.example.com.
+;IP address of Name Server
+dns.example.com. IN A 10.3.3.22
+
+$ORIGIN awsdns-00.net.
+;Name Server Information
+@		172800	IN	NS	g-ns-770.awsdns-00.net.
+@		172800	IN	NS	g-ns-1344.awsdns-00.net.
+@		172800	IN	NS	g-ns-1920.awsdns-00.net.
+@		172800	IN	NS	g-ns-449.awsdns-00.net.
+
+;IP address of Name Server
+g-ns-770.awsdns-00.net.	300	IN	A	205.251.195.2
+g-ns-1344.awsdns-00.net. 300	IN	A	205.251.197.64
+g-ns-1920.awsdns-00.net. 300	IN	A	205.251.199.128
+g-ns-449.awsdns-00.net.	300	IN	A	205.251.193.193
+
+$ORIGIN awsdns-00.org.
+;Name Server Information
+@		172800	IN	NS	g-ns-1600.awsdns-00.org.
+@		172800	IN	NS	g-ns-706.awsdns-00.org.
+@		172800	IN	NS	g-ns-1027.awsdns-00.org.
+@		172800	IN	NS	g-ns-128.awsdns-00.org.
+
+;IP address of Name Server
+g-ns-1600.awsdns-00.org. 172800	IN	A	205.251.198.64
+g-ns-706.awsdns-00.org.	172800	IN	A	205.251.194.194
+g-ns-1027.awsdns-00.org. 172800	IN	A	205.251.196.3
+g-ns-128.awsdns-00.org.	172800	IN	A	205.251.192.128
+
+$ORIGIN awsdns-00.co.uk.
+;Name Server Information
+@		172800	IN	NS	g-ns-1796.awsdns-00.co.uk.
+@		172800	IN	NS	g-ns-320.awsdns-00.co.uk.
+@		172800	IN	NS	g-ns-896.awsdns-00.co.uk.
+@		172800	IN	NS	g-ns-1475.awsdns-00.co.uk.
+;IP address of Name Server
+g-ns-1796.awsdns-00.co.uk. 172800 IN	A	205.251.199.4
+g-ns-320.awsdns-00.co.uk. 172800 IN	A	205.251.193.64
+g-ns-896.awsdns-00.co.uk. 172800 IN	A	205.251.195.128
+g-ns-1475.awsdns-00.co.uk. 172800 IN	A	205.251.197.195
+
+$ORIGIN amazonaws.com.
+;Name Server Information
+@		60	IN	NS	r1.amazonaws.com.
+@		60	IN	NS	r2.amazonaws.com.
+@		60	IN	NS	u1.amazonaws.com.
+@		60	IN	NS	u2.amazonaws.com.
+;IP address of Name Server
+r1.amazonaws.com.	3600	IN	A	205.251.192.27
+r2.amazonaws.com.	3600	IN	A	205.251.195.199
+u1.amazonaws.com.	3600	IN	A	156.154.64.10
+u2.amazonaws.com.	3600	IN	A	156.154.65.10
+
+$ORIGIN us-east-1.amazonaws.com.
+;Name Server Information
+@		60	IN	NS	u1.amazonaws.com.
+@ 		60	IN	NS	u2.amazonaws.com.
+@ 		60	IN	NS	u3.amazonaws.com.
+@ 		60	IN	NS	u4.amazonaws.com.
+@ 		60	IN	NS	u5.amazonaws.com.
+@ 		60	IN	NS	u6.amazonaws.com.
+@ 		60	IN	NS	ns1.p31.dynect.net.
+@ 		60	IN	NS	ns2.p31.dynect.net.
+@ 		60	IN	NS	ns3.p31.dynect.net.
+@ 		60	IN	NS	ns4.p31.dynect.net.
+@ 		60	IN	NS	pdns1.ultradns.net.
+@ 		60	IN	NS	pdns3.ultradns.org.
+@ 		60	IN	NS	pdns5.ultradns.info.
+;IP address of Name Server
+pdns1.ultradns.net.	60	IN	A	204.74.108.1
+pdns3.ultradns.org.	60	IN	A	199.7.68.1
+pdns5.ultradns.info.	60	IN	A	204.74.114.1
+u1.amazonaws.com.	60	IN	A	156.154.64.10
+u2.amazonaws.com.	60	IN	A	156.154.65.10
+u3.amazonaws.com.	60	IN	A	156.154.66.10
+u4.amazonaws.com.	60	IN	A	156.154.67.10
+u5.amazonaws.com.	60	IN	A	156.154.68.10
+u6.amazonaws.com.	60	IN	A	156.154.69.10
+ns1.p31.dynect.net.	60	IN	A	208.78.70.31
+ns2.p31.dynect.net.	60	IN	A	204.13.250.31
+ns3.p31.dynect.net.	60	IN	A	208.78.71.31
+ns4.p31.dynect.net.	60	IN	A	204.13.251.31
+
+;$ORIGIN efs.us-east-1.amazonaws.com.
+;;Name Server Information
+;@		 60	IN	NS	ns-512.awsdns-00.net.
+;@		 60	IN	NS	ns-1024.awsdns-00.org.
+;@		 60	IN	NS	ns-1536.awsdns-00.co.uk.
+;@		 60	IN	NS	ns-0.awsdns-00.com.
+;;IP address of Name Server
+;ns-512.awsdns-00.net.	60	IN	A	205.251.194.0
+;ns-1024.awsdns-00.org.	60	IN	A	205.251.196.0
+;ns-1536.awsdns-00.co.uk. 60	IN	A	205.251.198.0
+;ns-0.awsdns-00.com.	60	IN	A	205.251.192.0
+
+$ORIGIN bayerfamily.com.
+;Name Server Information
+@		60	IN	NS	ns4.afternic.com.
+@		60	IN	NS	ns3.afternic.com.
+;IP address of Name Server
+ns3.afternic.com.	60	IN	A	97.74.98.65
+ns4.afternic.com.	60	IN	A	173.201.66.65
+

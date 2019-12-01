@@ -1,0 +1,1331 @@
+01-Dec-2019 03:21:01.185 now using logging configuration from config file
+01-Dec-2019 03:21:01.185 dns_requestmgr_shutdown: 0x7fae2b220538
+01-Dec-2019 03:21:01.185 send_shutdown_events: 0x7fae2b220538
+01-Dec-2019 03:21:01.185 dns_requestmgr_shutdown: 0x7fae2b220380
+01-Dec-2019 03:21:01.185 send_shutdown_events: 0x7fae2b220380
+01-Dec-2019 03:21:01.185 load_configuration: success
+01-Dec-2019 03:21:01.185 reloading configuration succeeded
+01-Dec-2019 03:21:01.185 reloading zones succeeded
+01-Dec-2019 03:21:01.188 zone_timer: managed-keys-zone: enter
+01-Dec-2019 03:21:01.188 zone_maintenance: managed-keys-zone: enter
+01-Dec-2019 03:21:01.188 zone_refreshkeys: managed-keys-zone: enter
+01-Dec-2019 03:21:01.188 managed-keys-zone: Creating key fetch in zone_refreshkeys() for '.'
+01-Dec-2019 03:21:01.188 fetch: ./DNSKEY
+01-Dec-2019 03:21:01.188 zone_settimer: managed-keys-zone: enter
+01-Dec-2019 03:21:01.188 killing name 0x7fae185af620
+01-Dec-2019 03:21:01.188 zone EMPTY.AS112.ARPA/IN: starting load
+01-Dec-2019 03:21:01.189 zone EMPTY.AS112.ARPA/IN: number of nodes in database: 0
+01-Dec-2019 03:21:01.189 zone EMPTY.AS112.ARPA/IN: loaded; checking validity
+01-Dec-2019 03:21:01.189 zone EMPTY.AS112.ARPA/IN: replacing zone database
+01-Dec-2019 03:21:01.189 zone_settimer: zone EMPTY.AS112.ARPA/IN: enter
+01-Dec-2019 03:21:01.189 zone 116.100.IN-ADDR.ARPA/IN: starting load
+01-Dec-2019 03:21:01.189 zone 116.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+01-Dec-2019 03:21:01.189 zone 116.100.IN-ADDR.ARPA/IN: loaded; checking validity
+01-Dec-2019 03:21:01.189 zone 116.100.IN-ADDR.ARPA/IN: replacing zone database
+01-Dec-2019 03:21:01.189 zone_settimer: zone 116.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.189 zone HOME.ARPA/IN: starting load
+01-Dec-2019 03:21:01.189 zone HOME.ARPA/IN: number of nodes in database: 0
+01-Dec-2019 03:21:01.189 zone HOME.ARPA/IN: loaded; checking validity
+01-Dec-2019 03:21:01.189 zone HOME.ARPA/IN: replacing zone database
+01-Dec-2019 03:21:01.189 zone_settimer: zone HOME.ARPA/IN: enter
+01-Dec-2019 03:21:01.189 zone 110.100.IN-ADDR.ARPA/IN: starting load
+01-Dec-2019 03:21:01.189 zone 110.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+01-Dec-2019 03:21:01.189 zone 110.100.IN-ADDR.ARPA/IN: loaded; checking validity
+01-Dec-2019 03:21:01.189 zone 110.100.IN-ADDR.ARPA/IN: replacing zone database
+01-Dec-2019 03:21:01.189 zone_settimer: zone 110.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.189 zone 0.in-addr.arpa/IN: skipping load: master file older than last load
+01-Dec-2019 03:21:01.189 zone 113.100.IN-ADDR.ARPA/IN: starting load
+01-Dec-2019 03:21:01.189 zone 113.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+01-Dec-2019 03:21:01.189 zone 113.100.IN-ADDR.ARPA/IN: loaded; checking validity
+01-Dec-2019 03:21:01.189 zone 113.100.IN-ADDR.ARPA/IN: replacing zone database
+01-Dec-2019 03:21:01.189 zone_settimer: zone 113.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.189 zone 10.IN-ADDR.ARPA/IN: starting load
+01-Dec-2019 03:21:01.189 zone 10.IN-ADDR.ARPA/IN: number of nodes in database: 0
+01-Dec-2019 03:21:01.189 zone 10.IN-ADDR.ARPA/IN: loaded; checking validity
+01-Dec-2019 03:21:01.189 zone 10.IN-ADDR.ARPA/IN: replacing zone database
+01-Dec-2019 03:21:01.189 zone_settimer: zone 10.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.189 zone 105.100.IN-ADDR.ARPA/IN: starting load
+01-Dec-2019 03:21:01.189 zone 105.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+01-Dec-2019 03:21:01.189 zone 105.100.IN-ADDR.ARPA/IN: loaded; checking validity
+01-Dec-2019 03:21:01.189 zone 105.100.IN-ADDR.ARPA/IN: replacing zone database
+01-Dec-2019 03:21:01.189 zone_settimer: zone 105.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.190 zone 100.100.IN-ADDR.ARPA/IN: starting load
+01-Dec-2019 03:21:01.190 zone 100.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+01-Dec-2019 03:21:01.190 zone 100.100.IN-ADDR.ARPA/IN: loaded; checking validity
+01-Dec-2019 03:21:01.190 zone 100.100.IN-ADDR.ARPA/IN: replacing zone database
+01-Dec-2019 03:21:01.190 zone_settimer: zone 100.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.192 zone 102.100.IN-ADDR.ARPA/IN: starting load
+01-Dec-2019 03:21:01.192 zone 102.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+01-Dec-2019 03:21:01.192 zone 102.100.IN-ADDR.ARPA/IN: loaded; checking validity
+01-Dec-2019 03:21:01.192 zone 102.100.IN-ADDR.ARPA/IN: replacing zone database
+01-Dec-2019 03:21:01.192 zone_settimer: zone 102.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.192 zone 101.100.IN-ADDR.ARPA/IN: starting load
+01-Dec-2019 03:21:01.192 zone 101.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+01-Dec-2019 03:21:01.192 zone 101.100.IN-ADDR.ARPA/IN: loaded; checking validity
+01-Dec-2019 03:21:01.192 zone 101.100.IN-ADDR.ARPA/IN: replacing zone database
+01-Dec-2019 03:21:01.192 zone_settimer: zone 101.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.192 zone 125.100.IN-ADDR.ARPA/IN: starting load
+01-Dec-2019 03:21:01.192 zone 125.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+01-Dec-2019 03:21:01.192 zone 125.100.IN-ADDR.ARPA/IN: loaded; checking validity
+01-Dec-2019 03:21:01.192 zone 125.100.IN-ADDR.ARPA/IN: replacing zone database
+01-Dec-2019 03:21:01.192 zone_settimer: zone 125.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.192 zone 103.100.IN-ADDR.ARPA/IN: starting load
+01-Dec-2019 03:21:01.192 zone 103.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+01-Dec-2019 03:21:01.192 zone 103.100.IN-ADDR.ARPA/IN: loaded; checking validity
+01-Dec-2019 03:21:01.192 zone 103.100.IN-ADDR.ARPA/IN: replacing zone database
+01-Dec-2019 03:21:01.192 zone_settimer: zone 103.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.192 zone 107.100.IN-ADDR.ARPA/IN: starting load
+01-Dec-2019 03:21:01.192 zone 107.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+01-Dec-2019 03:21:01.192 zone 107.100.IN-ADDR.ARPA/IN: loaded; checking validity
+01-Dec-2019 03:21:01.193 zone 107.100.IN-ADDR.ARPA/IN: replacing zone database
+01-Dec-2019 03:21:01.193 zone_settimer: zone 107.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.193 zone 104.100.IN-ADDR.ARPA/IN: starting load
+01-Dec-2019 03:21:01.193 zone 104.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+01-Dec-2019 03:21:01.193 zone 104.100.IN-ADDR.ARPA/IN: loaded; checking validity
+01-Dec-2019 03:21:01.193 zone 104.100.IN-ADDR.ARPA/IN: replacing zone database
+01-Dec-2019 03:21:01.193 zone_settimer: zone 104.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.193 zone 109.100.IN-ADDR.ARPA/IN: starting load
+01-Dec-2019 03:21:01.193 zone 109.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+01-Dec-2019 03:21:01.193 zone 109.100.IN-ADDR.ARPA/IN: loaded; checking validity
+01-Dec-2019 03:21:01.193 zone 109.100.IN-ADDR.ARPA/IN: replacing zone database
+01-Dec-2019 03:21:01.193 zone_settimer: zone 109.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.193 zone 111.100.IN-ADDR.ARPA/IN: starting load
+01-Dec-2019 03:21:01.193 zone 111.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+01-Dec-2019 03:21:01.193 zone 111.100.IN-ADDR.ARPA/IN: loaded; checking validity
+01-Dec-2019 03:21:01.193 zone 111.100.IN-ADDR.ARPA/IN: replacing zone database
+01-Dec-2019 03:21:01.193 zone_settimer: zone 111.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.193 zone 83.100.IN-ADDR.ARPA/IN: starting load
+01-Dec-2019 03:21:01.193 zone 83.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+01-Dec-2019 03:21:01.193 zone 83.100.IN-ADDR.ARPA/IN: loaded; checking validity
+01-Dec-2019 03:21:01.193 zone 83.100.IN-ADDR.ARPA/IN: replacing zone database
+01-Dec-2019 03:21:01.193 zone_settimer: zone 83.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.193 zone 115.100.IN-ADDR.ARPA/IN: starting load
+01-Dec-2019 03:21:01.193 zone 115.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+01-Dec-2019 03:21:01.193 zone 115.100.IN-ADDR.ARPA/IN: loaded; checking validity
+01-Dec-2019 03:21:01.193 zone 115.100.IN-ADDR.ARPA/IN: replacing zone database
+01-Dec-2019 03:21:01.193 zone_settimer: zone 115.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.193 zone 121.100.IN-ADDR.ARPA/IN: starting load
+01-Dec-2019 03:21:01.193 zone 121.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+01-Dec-2019 03:21:01.193 zone 121.100.IN-ADDR.ARPA/IN: loaded; checking validity
+01-Dec-2019 03:21:01.193 zone 121.100.IN-ADDR.ARPA/IN: replacing zone database
+01-Dec-2019 03:21:01.193 zone_settimer: zone 121.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.193 dns_adb_createfind: found A for name dns.example.com (0x7fae216ce310) in db
+01-Dec-2019 03:21:01.196 dns_requestmgr_detach: 0x7fae2b220538: eref 0 iref 0
+01-Dec-2019 03:21:01.196 mgr_destroy
+01-Dec-2019 03:21:01.196 calling free_rbtdb(.)
+01-Dec-2019 03:21:01.196 done free_rbtdb(.)
+01-Dec-2019 03:21:01.198 dns_requestmgr_detach: 0x7fae2b220380: eref 0 iref 0
+01-Dec-2019 03:21:01.198 mgr_destroy
+01-Dec-2019 03:21:01.198 zone_timer: zone EMPTY.AS112.ARPA/IN: enter
+01-Dec-2019 03:21:01.198 zone_maintenance: zone EMPTY.AS112.ARPA/IN: enter
+01-Dec-2019 03:21:01.198 zone_settimer: zone EMPTY.AS112.ARPA/IN: enter
+01-Dec-2019 03:21:01.198 zone_timer: zone 105.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.198 zone_maintenance: zone 105.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.198 zone_settimer: zone 105.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.198 zone_timer: zone 116.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.198 zone_maintenance: zone 116.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.198 zone_settimer: zone 116.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.198 zone_timer: zone HOME.ARPA/IN: enter
+01-Dec-2019 03:21:01.198 zone_maintenance: zone HOME.ARPA/IN: enter
+01-Dec-2019 03:21:01.198 zone_settimer: zone HOME.ARPA/IN: enter
+01-Dec-2019 03:21:01.198 zone 122.100.IN-ADDR.ARPA/IN: starting load
+01-Dec-2019 03:21:01.198 zone 122.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+01-Dec-2019 03:21:01.198 zone 122.100.IN-ADDR.ARPA/IN: loaded; checking validity
+01-Dec-2019 03:21:01.198 zone 122.100.IN-ADDR.ARPA/IN: replacing zone database
+01-Dec-2019 03:21:01.198 zone_settimer: zone 122.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.198 zone 70.100.IN-ADDR.ARPA/IN: starting load
+01-Dec-2019 03:21:01.198 zone 70.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+01-Dec-2019 03:21:01.198 zone 70.100.IN-ADDR.ARPA/IN: loaded; checking validity
+01-Dec-2019 03:21:01.198 zone 70.100.IN-ADDR.ARPA/IN: replacing zone database
+01-Dec-2019 03:21:01.198 zone_settimer: zone 70.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.198 zone_timer: zone 110.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.198 zone_maintenance: zone 110.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.198 zone_settimer: zone 110.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.198 zone_timer: zone 113.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.198 zone_maintenance: zone 113.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.198 zone_settimer: zone 113.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.198 zone 117.100.IN-ADDR.ARPA/IN: starting load
+01-Dec-2019 03:21:01.198 zone 117.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+01-Dec-2019 03:21:01.198 zone 117.100.IN-ADDR.ARPA/IN: loaded; checking validity
+01-Dec-2019 03:21:01.198 zone 117.100.IN-ADDR.ARPA/IN: replacing zone database
+01-Dec-2019 03:21:01.198 zone_settimer: zone 117.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.198 zone 118.100.IN-ADDR.ARPA/IN: starting load
+01-Dec-2019 03:21:01.198 zone 118.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+01-Dec-2019 03:21:01.198 zone 118.100.IN-ADDR.ARPA/IN: loaded; checking validity
+01-Dec-2019 03:21:01.198 zone 118.100.IN-ADDR.ARPA/IN: replacing zone database
+01-Dec-2019 03:21:01.198 zone_settimer: zone 118.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.198 zone 73.100.IN-ADDR.ARPA/IN: starting load
+01-Dec-2019 03:21:01.198 zone 73.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+01-Dec-2019 03:21:01.198 zone 73.100.IN-ADDR.ARPA/IN: loaded; checking validity
+01-Dec-2019 03:21:01.198 zone 73.100.IN-ADDR.ARPA/IN: replacing zone database
+01-Dec-2019 03:21:01.198 zone_settimer: zone 73.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.198 zone 82.100.IN-ADDR.ARPA/IN: starting load
+01-Dec-2019 03:21:01.198 zone 82.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+01-Dec-2019 03:21:01.198 zone 82.100.IN-ADDR.ARPA/IN: loaded; checking validity
+01-Dec-2019 03:21:01.198 zone 82.100.IN-ADDR.ARPA/IN: replacing zone database
+01-Dec-2019 03:21:01.198 zone_settimer: zone 82.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.198 zone_timer: zone 10.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.198 zone_maintenance: zone 10.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.198 zone_settimer: zone 10.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.198 zone_timer: zone 115.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.198 zone_maintenance: zone 115.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.198 zone_settimer: zone 115.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.198 zone 106.100.IN-ADDR.ARPA/IN: starting load
+01-Dec-2019 03:21:01.198 zone 106.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+01-Dec-2019 03:21:01.198 zone 106.100.IN-ADDR.ARPA/IN: loaded; checking validity
+01-Dec-2019 03:21:01.199 zone 106.100.IN-ADDR.ARPA/IN: replacing zone database
+01-Dec-2019 03:21:01.199 zone_settimer: zone 106.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.199 zone 120.100.IN-ADDR.ARPA/IN: starting load
+01-Dec-2019 03:21:01.199 zone 120.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+01-Dec-2019 03:21:01.199 zone 120.100.IN-ADDR.ARPA/IN: loaded; checking validity
+01-Dec-2019 03:21:01.199 zone 120.100.IN-ADDR.ARPA/IN: replacing zone database
+01-Dec-2019 03:21:01.199 zone_settimer: zone 120.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.199 zone_timer: zone 102.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.199 zone_maintenance: zone 102.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.199 zone_settimer: zone 102.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.199 zone_timer: zone 104.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.199 zone_maintenance: zone 104.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.199 zone_settimer: zone 104.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.199 zone 76.100.IN-ADDR.ARPA/IN: starting load
+01-Dec-2019 03:21:01.199 zone 76.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+01-Dec-2019 03:21:01.199 zone 76.100.IN-ADDR.ARPA/IN: loaded; checking validity
+01-Dec-2019 03:21:01.199 zone 76.100.IN-ADDR.ARPA/IN: replacing zone database
+01-Dec-2019 03:21:01.199 zone_settimer: zone 76.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.199 zone 254.169.IN-ADDR.ARPA/IN: starting load
+01-Dec-2019 03:21:01.199 zone 254.169.IN-ADDR.ARPA/IN: number of nodes in database: 0
+01-Dec-2019 03:21:01.199 zone 254.169.IN-ADDR.ARPA/IN: loaded; checking validity
+01-Dec-2019 03:21:01.199 zone 254.169.IN-ADDR.ARPA/IN: replacing zone database
+01-Dec-2019 03:21:01.199 zone_settimer: zone 254.169.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.199 zone_timer: zone 101.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.199 zone_maintenance: zone 101.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.199 zone_settimer: zone 101.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.199 zone_timer: zone 107.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.199 zone_maintenance: zone 107.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.199 zone_settimer: zone 107.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.199 zone_timer: zone 125.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.199 zone_maintenance: zone 125.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.199 zone_settimer: zone 125.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.199 zone_timer: zone 122.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.199 zone_maintenance: zone 122.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.199 zone_settimer: zone 122.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.199 zone 65.100.IN-ADDR.ARPA/IN: starting load
+01-Dec-2019 03:21:01.199 zone 65.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+01-Dec-2019 03:21:01.199 zone 65.100.IN-ADDR.ARPA/IN: loaded; checking validity
+01-Dec-2019 03:21:01.199 zone 65.100.IN-ADDR.ARPA/IN: replacing zone database
+01-Dec-2019 03:21:01.199 zone_settimer: zone 65.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.199 zone 66.100.IN-ADDR.ARPA/IN: starting load
+01-Dec-2019 03:21:01.199 zone 66.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+01-Dec-2019 03:21:01.199 zone 66.100.IN-ADDR.ARPA/IN: loaded; checking validity
+01-Dec-2019 03:21:01.199 zone 66.100.IN-ADDR.ARPA/IN: replacing zone database
+01-Dec-2019 03:21:01.199 zone_settimer: zone 66.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.199 zone_timer: zone 103.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.199 zone_maintenance: zone 103.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.199 zone_settimer: zone 103.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.199 zone_timer: zone 73.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.199 zone_maintenance: zone 73.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.199 zone_settimer: zone 73.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.199 zone 108.100.IN-ADDR.ARPA/IN: starting load
+01-Dec-2019 03:21:01.199 zone 108.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+01-Dec-2019 03:21:01.199 zone 108.100.IN-ADDR.ARPA/IN: loaded; checking validity
+01-Dec-2019 03:21:01.199 zone 108.100.IN-ADDR.ARPA/IN: replacing zone database
+01-Dec-2019 03:21:01.199 zone_settimer: zone 108.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.199 zone 112.100.IN-ADDR.ARPA/IN: starting load
+01-Dec-2019 03:21:01.199 zone 112.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+01-Dec-2019 03:21:01.199 zone 112.100.IN-ADDR.ARPA/IN: loaded; checking validity
+01-Dec-2019 03:21:01.199 zone 112.100.IN-ADDR.ARPA/IN: replacing zone database
+01-Dec-2019 03:21:01.199 zone_settimer: zone 112.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.199 zone 114.100.IN-ADDR.ARPA/IN: starting load
+01-Dec-2019 03:21:01.199 zone 114.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+01-Dec-2019 03:21:01.199 zone 114.100.IN-ADDR.ARPA/IN: loaded; checking validity
+01-Dec-2019 03:21:01.199 zone 114.100.IN-ADDR.ARPA/IN: replacing zone database
+01-Dec-2019 03:21:01.199 zone_settimer: zone 114.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.199 zone 75.100.IN-ADDR.ARPA/IN: starting load
+01-Dec-2019 03:21:01.199 zone 75.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+01-Dec-2019 03:21:01.199 zone 75.100.IN-ADDR.ARPA/IN: loaded; checking validity
+01-Dec-2019 03:21:01.199 zone 75.100.IN-ADDR.ARPA/IN: replacing zone database
+01-Dec-2019 03:21:01.199 zone_settimer: zone 75.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.199 zone_timer: zone 83.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.199 zone_maintenance: zone 83.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.199 zone_settimer: zone 83.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.199 zone_timer: zone 114.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.199 zone_maintenance: zone 114.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.199 zone_settimer: zone 114.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.199 zone 25.172.IN-ADDR.ARPA/IN: starting load
+01-Dec-2019 03:21:01.199 zone 25.172.IN-ADDR.ARPA/IN: number of nodes in database: 0
+01-Dec-2019 03:21:01.199 zone 25.172.IN-ADDR.ARPA/IN: loaded; checking validity
+01-Dec-2019 03:21:01.199 zone 25.172.IN-ADDR.ARPA/IN: replacing zone database
+01-Dec-2019 03:21:01.199 zone_settimer: zone 25.172.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.199 zone 9.E.F.IP6.ARPA/IN: starting load
+01-Dec-2019 03:21:01.199 zone 9.E.F.IP6.ARPA/IN: number of nodes in database: 0
+01-Dec-2019 03:21:01.200 zone 9.E.F.IP6.ARPA/IN: loaded; checking validity
+01-Dec-2019 03:21:01.200 zone 9.E.F.IP6.ARPA/IN: replacing zone database
+01-Dec-2019 03:21:01.200 zone_settimer: zone 9.E.F.IP6.ARPA/IN: enter
+01-Dec-2019 03:21:01.200 zone 123.100.IN-ADDR.ARPA/IN: starting load
+01-Dec-2019 03:21:01.200 zone 123.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+01-Dec-2019 03:21:01.200 zone 123.100.IN-ADDR.ARPA/IN: loaded; checking validity
+01-Dec-2019 03:21:01.200 zone 123.100.IN-ADDR.ARPA/IN: replacing zone database
+01-Dec-2019 03:21:01.200 zone_settimer: zone 123.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.200 zone 126.100.IN-ADDR.ARPA/IN: starting load
+01-Dec-2019 03:21:01.200 zone 126.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+01-Dec-2019 03:21:01.200 zone 126.100.IN-ADDR.ARPA/IN: loaded; checking validity
+01-Dec-2019 03:21:01.200 zone 126.100.IN-ADDR.ARPA/IN: replacing zone database
+01-Dec-2019 03:21:01.200 zone_settimer: zone 126.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.201 zone_timer: zone 109.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.201 zone_maintenance: zone 109.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.201 zone_settimer: zone 109.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.201 zone_timer: zone 120.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.201 zone_maintenance: zone 120.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.201 zone_settimer: zone 120.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.201 zone 93.100.IN-ADDR.ARPA/IN: starting load
+01-Dec-2019 03:21:01.201 zone 93.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+01-Dec-2019 03:21:01.201 zone 93.100.IN-ADDR.ARPA/IN: loaded; checking validity
+01-Dec-2019 03:21:01.201 zone 93.100.IN-ADDR.ARPA/IN: replacing zone database
+01-Dec-2019 03:21:01.201 zone_settimer: zone 93.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.201 zone 99.100.IN-ADDR.ARPA/IN: starting load
+01-Dec-2019 03:21:01.201 zone 99.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+01-Dec-2019 03:21:01.201 zone 99.100.IN-ADDR.ARPA/IN: loaded; checking validity
+01-Dec-2019 03:21:01.201 zone 99.100.IN-ADDR.ARPA/IN: replacing zone database
+01-Dec-2019 03:21:01.201 zone_settimer: zone 99.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.201 zone_timer: zone 100.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.201 zone_maintenance: zone 100.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.201 zone_settimer: zone 100.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.201 zone_timer: zone 82.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.201 zone_maintenance: zone 82.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.201 zone_settimer: zone 82.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.201 zone_timer: zone 117.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.201 zone_maintenance: zone 117.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.201 zone_settimer: zone 117.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.201 zone_timer: zone 254.169.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.201 zone_maintenance: zone 254.169.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.201 zone_settimer: zone 254.169.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.201 zone 124.100.IN-ADDR.ARPA/IN: starting load
+01-Dec-2019 03:21:01.201 zone 124.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+01-Dec-2019 03:21:01.201 zone 124.100.IN-ADDR.ARPA/IN: loaded; checking validity
+01-Dec-2019 03:21:01.201 zone 124.100.IN-ADDR.ARPA/IN: replacing zone database
+01-Dec-2019 03:21:01.201 zone_settimer: zone 124.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.201 zone 68.100.IN-ADDR.ARPA/IN: starting load
+01-Dec-2019 03:21:01.201 zone 68.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+01-Dec-2019 03:21:01.201 zone 68.100.IN-ADDR.ARPA/IN: loaded; checking validity
+01-Dec-2019 03:21:01.201 zone 68.100.IN-ADDR.ARPA/IN: replacing zone database
+01-Dec-2019 03:21:01.201 zone_settimer: zone 68.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.201 zone 94.100.IN-ADDR.ARPA/IN: starting load
+01-Dec-2019 03:21:01.201 zone 94.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+01-Dec-2019 03:21:01.201 zone 94.100.IN-ADDR.ARPA/IN: loaded; checking validity
+01-Dec-2019 03:21:01.201 zone 94.100.IN-ADDR.ARPA/IN: replacing zone database
+01-Dec-2019 03:21:01.201 zone_settimer: zone 94.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.201 zone 96.100.IN-ADDR.ARPA/IN: starting load
+01-Dec-2019 03:21:01.201 zone 96.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+01-Dec-2019 03:21:01.201 zone 96.100.IN-ADDR.ARPA/IN: loaded; checking validity
+01-Dec-2019 03:21:01.201 zone 96.100.IN-ADDR.ARPA/IN: replacing zone database
+01-Dec-2019 03:21:01.201 zone_settimer: zone 96.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.201 zone_timer: zone 121.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.201 zone_maintenance: zone 121.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.201 zone_settimer: zone 121.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.201 zone_timer: zone 9.E.F.IP6.ARPA/IN: enter
+01-Dec-2019 03:21:01.201 zone_maintenance: zone 9.E.F.IP6.ARPA/IN: enter
+01-Dec-2019 03:21:01.201 zone_settimer: zone 9.E.F.IP6.ARPA/IN: enter
+01-Dec-2019 03:21:01.201 zone_timer: zone 106.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.201 zone_maintenance: zone 106.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.201 zone_settimer: zone 106.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.201 zone_timer: zone 66.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.201 zone_maintenance: zone 66.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.201 zone_settimer: zone 66.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.201 zone 64.100.IN-ADDR.ARPA/IN: starting load
+01-Dec-2019 03:21:01.201 zone 64.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+01-Dec-2019 03:21:01.201 zone 64.100.IN-ADDR.ARPA/IN: loaded; checking validity
+01-Dec-2019 03:21:01.201 zone 64.100.IN-ADDR.ARPA/IN: replacing zone database
+01-Dec-2019 03:21:01.201 zone_settimer: zone 64.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.201 zone 67.100.IN-ADDR.ARPA/IN: starting load
+01-Dec-2019 03:21:01.201 zone 67.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+01-Dec-2019 03:21:01.201 zone 67.100.IN-ADDR.ARPA/IN: loaded; checking validity
+01-Dec-2019 03:21:01.202 zone 67.100.IN-ADDR.ARPA/IN: replacing zone database
+01-Dec-2019 03:21:01.202 zone_settimer: zone 67.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.202 zone_timer: zone 111.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.202 zone_maintenance: zone 111.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.202 zone_settimer: zone 111.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.202 zone_timer: zone 112.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.202 zone_maintenance: zone 112.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.202 zone_settimer: zone 112.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.202 zone 24.172.IN-ADDR.ARPA/IN: starting load
+01-Dec-2019 03:21:01.202 zone 24.172.IN-ADDR.ARPA/IN: number of nodes in database: 0
+01-Dec-2019 03:21:01.202 zone 24.172.IN-ADDR.ARPA/IN: loaded; checking validity
+01-Dec-2019 03:21:01.202 zone 24.172.IN-ADDR.ARPA/IN: replacing zone database
+01-Dec-2019 03:21:01.202 zone_settimer: zone 24.172.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.202 zone 26.172.IN-ADDR.ARPA/IN: starting load
+01-Dec-2019 03:21:01.202 zone 26.172.IN-ADDR.ARPA/IN: number of nodes in database: 0
+01-Dec-2019 03:21:01.202 zone 26.172.IN-ADDR.ARPA/IN: loaded; checking validity
+01-Dec-2019 03:21:01.202 zone 26.172.IN-ADDR.ARPA/IN: replacing zone database
+01-Dec-2019 03:21:01.202 zone_settimer: zone 26.172.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.202 zone_timer: zone 70.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.202 zone_maintenance: zone 70.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.202 zone_settimer: zone 70.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.202 zone_timer: zone 118.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.202 zone_maintenance: zone 118.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.202 zone_settimer: zone 118.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.202 zone 71.100.IN-ADDR.ARPA/IN: starting load
+01-Dec-2019 03:21:01.202 zone 71.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+01-Dec-2019 03:21:01.202 zone 71.100.IN-ADDR.ARPA/IN: loaded; checking validity
+01-Dec-2019 03:21:01.202 zone 71.100.IN-ADDR.ARPA/IN: replacing zone database
+01-Dec-2019 03:21:01.202 zone_settimer: zone 71.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.202 zone 74.100.IN-ADDR.ARPA/IN: starting load
+01-Dec-2019 03:21:01.202 zone 74.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+01-Dec-2019 03:21:01.202 zone 74.100.IN-ADDR.ARPA/IN: loaded; checking validity
+01-Dec-2019 03:21:01.202 zone 74.100.IN-ADDR.ARPA/IN: replacing zone database
+01-Dec-2019 03:21:01.202 zone_settimer: zone 74.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.202 zone_timer: zone 76.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.202 zone_maintenance: zone 76.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.202 zone_settimer: zone 76.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.202 zone_timer: zone 64.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.202 zone_maintenance: zone 64.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.202 zone_settimer: zone 64.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.202 zone 119.100.IN-ADDR.ARPA/IN: starting load
+01-Dec-2019 03:21:01.202 zone 119.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+01-Dec-2019 03:21:01.202 zone 119.100.IN-ADDR.ARPA/IN: loaded; checking validity
+01-Dec-2019 03:21:01.202 zone 119.100.IN-ADDR.ARPA/IN: replacing zone database
+01-Dec-2019 03:21:01.202 zone_settimer: zone 119.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.202 zone 72.100.IN-ADDR.ARPA/IN: starting load
+01-Dec-2019 03:21:01.202 zone 72.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+01-Dec-2019 03:21:01.202 zone 72.100.IN-ADDR.ARPA/IN: loaded; checking validity
+01-Dec-2019 03:21:01.202 zone 72.100.IN-ADDR.ARPA/IN: replacing zone database
+01-Dec-2019 03:21:01.202 zone_settimer: zone 72.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.202 zone 81.100.IN-ADDR.ARPA/IN: starting load
+01-Dec-2019 03:21:01.202 zone 81.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+01-Dec-2019 03:21:01.202 zone 81.100.IN-ADDR.ARPA/IN: loaded; checking validity
+01-Dec-2019 03:21:01.202 zone 81.100.IN-ADDR.ARPA/IN: replacing zone database
+01-Dec-2019 03:21:01.202 zone_settimer: zone 81.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.202 zone 85.100.IN-ADDR.ARPA/IN: starting load
+01-Dec-2019 03:21:01.202 zone 85.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+01-Dec-2019 03:21:01.202 zone 85.100.IN-ADDR.ARPA/IN: loaded; checking validity
+01-Dec-2019 03:21:01.202 zone 85.100.IN-ADDR.ARPA/IN: replacing zone database
+01-Dec-2019 03:21:01.202 zone_settimer: zone 85.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.202 zone_timer: zone 75.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.202 zone_maintenance: zone 75.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.202 zone_settimer: zone 75.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.202 zone_timer: zone 25.172.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.202 zone_maintenance: zone 25.172.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.202 zone_settimer: zone 25.172.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.202 zone 127.100.IN-ADDR.ARPA/IN: starting load
+01-Dec-2019 03:21:01.202 zone 127.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+01-Dec-2019 03:21:01.202 zone 127.100.IN-ADDR.ARPA/IN: loaded; checking validity
+01-Dec-2019 03:21:01.202 zone 127.100.IN-ADDR.ARPA/IN: replacing zone database
+01-Dec-2019 03:21:01.202 zone_settimer: zone 127.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.202 zone 77.100.IN-ADDR.ARPA/IN: starting load
+01-Dec-2019 03:21:01.202 zone 77.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+01-Dec-2019 03:21:01.202 zone 77.100.IN-ADDR.ARPA/IN: loaded; checking validity
+01-Dec-2019 03:21:01.202 zone 77.100.IN-ADDR.ARPA/IN: replacing zone database
+01-Dec-2019 03:21:01.203 zone_settimer: zone 77.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.203 zone 168.192.IN-ADDR.ARPA/IN: starting load
+01-Dec-2019 03:21:01.203 zone 168.192.IN-ADDR.ARPA/IN: number of nodes in database: 0
+01-Dec-2019 03:21:01.203 zone 168.192.IN-ADDR.ARPA/IN: loaded; checking validity
+01-Dec-2019 03:21:01.203 zone 168.192.IN-ADDR.ARPA/IN: replacing zone database
+01-Dec-2019 03:21:01.203 zone_settimer: zone 168.192.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.203 zone 113.0.203.IN-ADDR.ARPA/IN: starting load
+01-Dec-2019 03:21:01.203 zone 113.0.203.IN-ADDR.ARPA/IN: number of nodes in database: 0
+01-Dec-2019 03:21:01.203 zone 113.0.203.IN-ADDR.ARPA/IN: loaded; checking validity
+01-Dec-2019 03:21:01.203 zone 113.0.203.IN-ADDR.ARPA/IN: replacing zone database
+01-Dec-2019 03:21:01.203 zone_settimer: zone 113.0.203.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.203 zone_timer: zone 126.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.203 zone_maintenance: zone 126.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.203 zone_settimer: zone 126.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.203 zone_timer: zone 99.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.203 zone_maintenance: zone 99.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.203 zone_settimer: zone 99.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.203 zone 69.100.IN-ADDR.ARPA/IN: starting load
+01-Dec-2019 03:21:01.203 zone 69.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+01-Dec-2019 03:21:01.203 zone 69.100.IN-ADDR.ARPA/IN: loaded; checking validity
+01-Dec-2019 03:21:01.203 zone 69.100.IN-ADDR.ARPA/IN: replacing zone database
+01-Dec-2019 03:21:01.203 zone_settimer: zone 69.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.203 zone 92.100.IN-ADDR.ARPA/IN: starting load
+01-Dec-2019 03:21:01.203 zone 92.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+01-Dec-2019 03:21:01.203 zone 92.100.IN-ADDR.ARPA/IN: loaded; checking validity
+01-Dec-2019 03:21:01.203 zone 92.100.IN-ADDR.ARPA/IN: replacing zone database
+01-Dec-2019 03:21:01.203 zone_settimer: zone 92.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.203 zone_timer: zone 96.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.203 zone_maintenance: zone 96.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.203 zone_settimer: zone 96.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.203 zone_timer: zone 127.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.203 zone_maintenance: zone 127.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.203 zone_settimer: zone 127.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.203 zone 8.B.D.0.1.0.0.2.IP6.ARPA/IN: starting load
+01-Dec-2019 03:21:01.203 zone 8.B.D.0.1.0.0.2.IP6.ARPA/IN: number of nodes in database: 0
+01-Dec-2019 03:21:01.203 zone 8.B.D.0.1.0.0.2.IP6.ARPA/IN: loaded; checking validity
+01-Dec-2019 03:21:01.203 zone 8.B.D.0.1.0.0.2.IP6.ARPA/IN: replacing zone database
+01-Dec-2019 03:21:01.203 zone_settimer: zone 8.B.D.0.1.0.0.2.IP6.ARPA/IN: enter
+01-Dec-2019 03:21:01.203 zone_timer: zone 108.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.203 zone_maintenance: zone 108.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.203 zone_settimer: zone 108.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.203 zone_timer: zone 93.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.203 zone_maintenance: zone 93.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.203 zone_settimer: zone 93.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.203 zone 79.100.IN-ADDR.ARPA/IN: starting load
+01-Dec-2019 03:21:01.203 zone 79.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+01-Dec-2019 03:21:01.203 zone 79.100.IN-ADDR.ARPA/IN: loaded; checking validity
+01-Dec-2019 03:21:01.204 zone 79.100.IN-ADDR.ARPA/IN: replacing zone database
+01-Dec-2019 03:21:01.204 zone_settimer: zone 79.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.204 zone 80.100.IN-ADDR.ARPA/IN: starting load
+01-Dec-2019 03:21:01.204 zone 80.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+01-Dec-2019 03:21:01.204 zone 80.100.IN-ADDR.ARPA/IN: loaded; checking validity
+01-Dec-2019 03:21:01.204 zone 80.100.IN-ADDR.ARPA/IN: replacing zone database
+01-Dec-2019 03:21:01.204 zone_settimer: zone 80.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.204 zone_timer: zone 124.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.204 zone_maintenance: zone 124.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.204 zone_settimer: zone 124.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.204 zone_timer: zone 71.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.204 zone_maintenance: zone 71.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.204 zone_settimer: zone 71.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.204 zone_timer: zone 24.172.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.204 zone_maintenance: zone 24.172.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.204 zone_settimer: zone 24.172.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.204 zone_timer: zone 26.172.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.204 zone_maintenance: zone 26.172.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.204 zone_settimer: zone 26.172.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.204 zone 27.172.IN-ADDR.ARPA/IN: starting load
+01-Dec-2019 03:21:01.204 zone 27.172.IN-ADDR.ARPA/IN: number of nodes in database: 0
+01-Dec-2019 03:21:01.204 zone 27.172.IN-ADDR.ARPA/IN: loaded; checking validity
+01-Dec-2019 03:21:01.204 zone 27.172.IN-ADDR.ARPA/IN: replacing zone database
+01-Dec-2019 03:21:01.204 zone_settimer: zone 27.172.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.204 zone 100.51.198.IN-ADDR.ARPA/IN: starting load
+01-Dec-2019 03:21:01.204 zone 100.51.198.IN-ADDR.ARPA/IN: number of nodes in database: 0
+01-Dec-2019 03:21:01.204 zone 100.51.198.IN-ADDR.ARPA/IN: loaded; checking validity
+01-Dec-2019 03:21:01.204 zone 100.51.198.IN-ADDR.ARPA/IN: replacing zone database
+01-Dec-2019 03:21:01.204 zone_settimer: zone 100.51.198.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.204 zone_timer: zone 65.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.204 zone_maintenance: zone 65.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.204 zone_settimer: zone 65.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.204 zone_timer: zone 85.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.204 zone_maintenance: zone 85.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.204 zone_settimer: zone 85.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.204 zone_timer: zone 74.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.204 zone_maintenance: zone 74.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.204 zone_settimer: zone 74.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.204 zone_timer: zone 119.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.204 zone_maintenance: zone 119.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.204 zone_settimer: zone 119.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.204 zone 88.100.IN-ADDR.ARPA/IN: starting load
+01-Dec-2019 03:21:01.204 zone 88.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+01-Dec-2019 03:21:01.204 zone 88.100.IN-ADDR.ARPA/IN: loaded; checking validity
+01-Dec-2019 03:21:01.204 zone 88.100.IN-ADDR.ARPA/IN: replacing zone database
+01-Dec-2019 03:21:01.204 zone_settimer: zone 88.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.204 zone 90.100.IN-ADDR.ARPA/IN: starting load
+01-Dec-2019 03:21:01.204 zone 90.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+01-Dec-2019 03:21:01.204 zone 90.100.IN-ADDR.ARPA/IN: loaded; checking validity
+01-Dec-2019 03:21:01.204 zone 90.100.IN-ADDR.ARPA/IN: replacing zone database
+01-Dec-2019 03:21:01.204 zone_settimer: zone 90.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.204 zone_timer: zone 72.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.204 zone_maintenance: zone 72.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.204 zone_settimer: zone 72.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.204 zone_timer: zone 92.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.204 zone_maintenance: zone 92.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.204 zone_settimer: zone 92.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.204 zone 87.100.IN-ADDR.ARPA/IN: starting load
+01-Dec-2019 03:21:01.204 zone 87.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+01-Dec-2019 03:21:01.204 zone 87.100.IN-ADDR.ARPA/IN: loaded; checking validity
+01-Dec-2019 03:21:01.204 zone 87.100.IN-ADDR.ARPA/IN: replacing zone database
+01-Dec-2019 03:21:01.204 zone_settimer: zone 87.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.205 zone 97.100.IN-ADDR.ARPA/IN: starting load
+01-Dec-2019 03:21:01.205 zone 97.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+01-Dec-2019 03:21:01.205 zone 97.100.IN-ADDR.ARPA/IN: loaded; checking validity
+01-Dec-2019 03:21:01.205 zone 97.100.IN-ADDR.ARPA/IN: replacing zone database
+01-Dec-2019 03:21:01.205 zone_settimer: zone 97.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.205 zone 20.172.IN-ADDR.ARPA/IN: starting load
+01-Dec-2019 03:21:01.205 zone 20.172.IN-ADDR.ARPA/IN: number of nodes in database: 0
+01-Dec-2019 03:21:01.205 zone 20.172.IN-ADDR.ARPA/IN: loaded; checking validity
+01-Dec-2019 03:21:01.205 zone 20.172.IN-ADDR.ARPA/IN: replacing zone database
+01-Dec-2019 03:21:01.205 zone_settimer: zone 20.172.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.205 zone localhost.localdomain/IN: skipping load: master file older than last load
+01-Dec-2019 03:21:01.205 zone_timer: zone 123.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.205 zone_maintenance: zone 123.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.205 zone_settimer: zone 123.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.205 zone_timer: zone 81.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.205 zone_maintenance: zone 81.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.205 zone_settimer: zone 81.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.205 zone 78.100.IN-ADDR.ARPA/IN: starting load
+01-Dec-2019 03:21:01.205 zone 78.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+01-Dec-2019 03:21:01.205 zone 78.100.IN-ADDR.ARPA/IN: loaded; checking validity
+01-Dec-2019 03:21:01.205 zone 78.100.IN-ADDR.ARPA/IN: replacing zone database
+01-Dec-2019 03:21:01.205 zone_settimer: zone 78.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.205 zone 84.100.IN-ADDR.ARPA/IN: starting load
+01-Dec-2019 03:21:01.205 zone 84.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+01-Dec-2019 03:21:01.205 zone 84.100.IN-ADDR.ARPA/IN: loaded; checking validity
+01-Dec-2019 03:21:01.205 zone 84.100.IN-ADDR.ARPA/IN: replacing zone database
+01-Dec-2019 03:21:01.205 zone_settimer: zone 84.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.205 zone 255.255.255.255.IN-ADDR.ARPA/IN: starting load
+01-Dec-2019 03:21:01.205 zone 255.255.255.255.IN-ADDR.ARPA/IN: number of nodes in database: 0
+01-Dec-2019 03:21:01.205 zone 255.255.255.255.IN-ADDR.ARPA/IN: loaded; checking validity
+01-Dec-2019 03:21:01.205 zone 255.255.255.255.IN-ADDR.ARPA/IN: replacing zone database
+01-Dec-2019 03:21:01.205 zone_settimer: zone 255.255.255.255.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.205 zone 0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA/IN: starting load
+01-Dec-2019 03:21:01.205 zone 0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA/IN: number of nodes in database: 0
+01-Dec-2019 03:21:01.205 zone 0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA/IN: loaded; checking validity
+01-Dec-2019 03:21:01.205 zone 0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA/IN: replacing zone database
+01-Dec-2019 03:21:01.205 zone_settimer: zone 0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA/IN: enter
+01-Dec-2019 03:21:01.205 zone_timer: zone 68.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.205 zone_maintenance: zone 68.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.205 zone_settimer: zone 68.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.205 zone_timer: zone 168.192.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.205 zone_maintenance: zone 168.192.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.205 zone_settimer: zone 168.192.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.205 zone 1.0.0.127.in-addr.arpa/IN: skipping load: master file older than last load
+01-Dec-2019 03:21:01.205 zone 21.172.IN-ADDR.ARPA/IN: starting load
+01-Dec-2019 03:21:01.205 zone 21.172.IN-ADDR.ARPA/IN: number of nodes in database: 0
+01-Dec-2019 03:21:01.205 zone 21.172.IN-ADDR.ARPA/IN: loaded; checking validity
+01-Dec-2019 03:21:01.205 zone 21.172.IN-ADDR.ARPA/IN: replacing zone database
+01-Dec-2019 03:21:01.205 zone_settimer: zone 21.172.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.206 zone_timer: zone 94.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.206 zone_maintenance: zone 94.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.206 zone_settimer: zone 94.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.206 zone_timer: zone 67.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.206 zone_maintenance: zone 67.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.206 zone_settimer: zone 67.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.206 zone 86.100.IN-ADDR.ARPA/IN: starting load
+01-Dec-2019 03:21:01.206 zone 86.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+01-Dec-2019 03:21:01.206 zone 86.100.IN-ADDR.ARPA/IN: loaded; checking validity
+01-Dec-2019 03:21:01.206 zone 86.100.IN-ADDR.ARPA/IN: replacing zone database
+01-Dec-2019 03:21:01.206 zone_settimer: zone 86.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.206 zone 23.172.IN-ADDR.ARPA/IN: starting load
+01-Dec-2019 03:21:01.206 zone 23.172.IN-ADDR.ARPA/IN: number of nodes in database: 0
+01-Dec-2019 03:21:01.206 zone 23.172.IN-ADDR.ARPA/IN: loaded; checking validity
+01-Dec-2019 03:21:01.206 zone 23.172.IN-ADDR.ARPA/IN: replacing zone database
+01-Dec-2019 03:21:01.206 zone_settimer: zone 23.172.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.206 zone_timer: zone 79.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.206 zone_maintenance: zone 79.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.206 zone_settimer: zone 79.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.206 zone_timer: zone 0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA/IN: enter
+01-Dec-2019 03:21:01.206 zone_maintenance: zone 0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA/IN: enter
+01-Dec-2019 03:21:01.206 zone_settimer: zone 0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA/IN: enter
+01-Dec-2019 03:21:01.206 zone_timer: zone 113.0.203.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.206 zone_maintenance: zone 113.0.203.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.206 zone_settimer: zone 113.0.203.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.206 zone_timer: zone 8.B.D.0.1.0.0.2.IP6.ARPA/IN: enter
+01-Dec-2019 03:21:01.206 zone_maintenance: zone 8.B.D.0.1.0.0.2.IP6.ARPA/IN: enter
+01-Dec-2019 03:21:01.206 zone_settimer: zone 8.B.D.0.1.0.0.2.IP6.ARPA/IN: enter
+01-Dec-2019 03:21:01.206 zone_timer: zone 27.172.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.206 zone_maintenance: zone 27.172.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.206 zone_settimer: zone 27.172.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.206 zone_timer: zone 100.51.198.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.206 zone_maintenance: zone 100.51.198.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.206 zone_settimer: zone 100.51.198.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.206 zone 91.100.IN-ADDR.ARPA/IN: starting load
+01-Dec-2019 03:21:01.206 zone 91.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+01-Dec-2019 03:21:01.206 zone 91.100.IN-ADDR.ARPA/IN: loaded; checking validity
+01-Dec-2019 03:21:01.206 zone 91.100.IN-ADDR.ARPA/IN: replacing zone database
+01-Dec-2019 03:21:01.206 zone_settimer: zone 91.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.207 zone 95.100.IN-ADDR.ARPA/IN: starting load
+01-Dec-2019 03:21:01.207 zone 95.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+01-Dec-2019 03:21:01.207 zone 95.100.IN-ADDR.ARPA/IN: loaded; checking validity
+01-Dec-2019 03:21:01.207 zone 95.100.IN-ADDR.ARPA/IN: replacing zone database
+01-Dec-2019 03:21:01.207 zone_settimer: zone 95.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.207 zone_timer: zone 80.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.207 zone_maintenance: zone 80.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.207 zone_settimer: zone 80.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.207 zone_timer: zone 90.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.207 zone_maintenance: zone 90.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.207 zone_settimer: zone 90.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.207 zone 28.172.IN-ADDR.ARPA/IN: starting load
+01-Dec-2019 03:21:01.207 zone 28.172.IN-ADDR.ARPA/IN: number of nodes in database: 0
+01-Dec-2019 03:21:01.207 zone 28.172.IN-ADDR.ARPA/IN: loaded; checking validity
+01-Dec-2019 03:21:01.207 zone 28.172.IN-ADDR.ARPA/IN: replacing zone database
+01-Dec-2019 03:21:01.207 zone_settimer: zone 28.172.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.207 zone 31.172.IN-ADDR.ARPA/IN: starting load
+01-Dec-2019 03:21:01.207 zone 31.172.IN-ADDR.ARPA/IN: number of nodes in database: 0
+01-Dec-2019 03:21:01.207 zone 31.172.IN-ADDR.ARPA/IN: loaded; checking validity
+01-Dec-2019 03:21:01.207 zone 31.172.IN-ADDR.ARPA/IN: replacing zone database
+01-Dec-2019 03:21:01.207 zone_settimer: zone 31.172.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.207 zone_timer: zone 20.172.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.207 zone_maintenance: zone 20.172.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.207 zone_settimer: zone 20.172.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.207 zone_timer: zone 77.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.207 zone_maintenance: zone 77.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.207 zone_settimer: zone 77.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.207 managed-keys-zone: Returned from key fetch in keyfetch_done() for '.': ncache nxrrset
+01-Dec-2019 03:21:01.207 managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+01-Dec-2019 03:21:01.207 set_refreshkeytimer: managed-keys-zone: enter
+01-Dec-2019 03:21:01.207 managed-keys-zone: next key refresh: 01-Dec-2019 04:21:01.207
+01-Dec-2019 03:21:01.207 zone_settimer: managed-keys-zone: enter
+01-Dec-2019 03:21:01.207 set_refreshkeytimer: managed-keys-zone: enter
+01-Dec-2019 03:21:01.207 managed-keys-zone: next key refresh: 01-Dec-2019 04:21:01.207
+01-Dec-2019 03:21:01.207 zone_settimer: managed-keys-zone: enter
+01-Dec-2019 03:21:01.207 zone_journal: managed-keys-zone: enter
+01-Dec-2019 03:21:01.207 writing to journal
+01-Dec-2019 03:21:01.207 del .			0	IN	SOA	. . 57 0 0 0 0
+01-Dec-2019 03:21:01.207 del .			0	IN	TYPE65533 \# 276 5DE336CE00000000000000000101030803010001ACFFB409BCC939F8 31F7A1E5EC88F7A59255EC53040BE432027390A4CE896D6F9086F3C5 E177FBFE118163AAEC7AF1462C47945944C4E2C026BE5E98BBCDED25 978272E1E3E079C5094D573F0E83C92F02B32D3513B1550B826929C8 0DD0F92CAC966D17769FD5867B647C3F38029ABDC48152EB8F207159 ECC5D232C7C1537C79F4B7AC28FF11682F21681BF6D6ABA555032BF6 F9F036BEB2AAA5B3778D6EEBFBA6BF9EA191BE4AB0CAEA759E2F773A 1F9029C73ECB8D5735B9321DB085F1B8E2D8038FE2941992548CEE0D 67DD4547E11DD63AF9C9FC1C5466FB684CF009D7197C2CF79E792AB5 01E6A8A1CA519AF2CB9B5F6367E94C0D47502451357BE1B5
+01-Dec-2019 03:21:01.207 del .			0	IN	TYPE65533 \# 276 5DE336CE00000000000000000101030803010001A80020A95566BA42 E886BB804CDA84E47EF56DBD7AEC612615552CEC906D2116D0EF2070 28C51554144DFEAFE7C7CB8F005DD18234133AC0710A81182CE1FD14 AD2283BC83435F9DF2F6313251931A176DF0DA51E54F42E604860DFB 359580250F559CC543C4FFD51CBE3DE8CFD06719237F9FC47EE729DA 06835FA452E825E9A18EBC2ECBCF563474652C33CF56A9033BCDF5D9 73121797EC8089041B6E03A1B72D0A735B984E03687309332324F27C 2DBA85E9DB15E83A0143382E974B0621C18E625ECEC907577D9E7BAD E95241A81EBBE8A901D4D3276E40B114C0A2E6FC38D19C2E6AAB0264 4B2813F575FC21601E0DEE49CD9EE96A43103E524D62873D
+01-Dec-2019 03:21:01.207 add .			0	IN	SOA	. . 58 0 0 0 0
+01-Dec-2019 03:21:01.207 add .			0	IN	TYPE65533 \# 276 5DE33FAD00000000000000000101030803010001ACFFB409BCC939F8 31F7A1E5EC88F7A59255EC53040BE432027390A4CE896D6F9086F3C5 E177FBFE118163AAEC7AF1462C47945944C4E2C026BE5E98BBCDED25 978272E1E3E079C5094D573F0E83C92F02B32D3513B1550B826929C8 0DD0F92CAC966D17769FD5867B647C3F38029ABDC48152EB8F207159 ECC5D232C7C1537C79F4B7AC28FF11682F21681BF6D6ABA555032BF6 F9F036BEB2AAA5B3778D6EEBFBA6BF9EA191BE4AB0CAEA759E2F773A 1F9029C73ECB8D5735B9321DB085F1B8E2D8038FE2941992548CEE0D 67DD4547E11DD63AF9C9FC1C5466FB684CF009D7197C2CF79E792AB5 01E6A8A1CA519AF2CB9B5F6367E94C0D47502451357BE1B5
+01-Dec-2019 03:21:01.207 add .			0	IN	TYPE65533 \# 276 5DE33FAD00000000000000000101030803010001A80020A95566BA42 E886BB804CDA84E47EF56DBD7AEC612615552CEC906D2116D0EF2070 28C51554144DFEAFE7C7CB8F005DD18234133AC0710A81182CE1FD14 AD2283BC83435F9DF2F6313251931A176DF0DA51E54F42E604860DFB 359580250F559CC543C4FFD51CBE3DE8CFD06719237F9FC47EE729DA 06835FA452E825E9A18EBC2ECBCF563474652C33CF56A9033BCDF5D9 73121797EC8089041B6E03A1B72D0A735B984E03687309332324F27C 2DBA85E9DB15E83A0143382E974B0621C18E625ECEC907577D9E7BAD E95241A81EBBE8A901D4D3276E40B114C0A2E6FC38D19C2E6AAB0264 4B2813F575FC21601E0DEE49CD9EE96A43103E524D62873D
+01-Dec-2019 03:21:01.209 zone_needdump: managed-keys-zone: enter
+01-Dec-2019 03:21:01.209 zone_settimer: managed-keys-zone: enter
+01-Dec-2019 03:21:01.209 zone_timer: zone 78.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.209 zone_maintenance: zone 78.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.209 zone_settimer: zone 78.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.209 zone_timer: zone 84.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.209 zone_maintenance: zone 84.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.209 zone_settimer: zone 84.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.209 zone_timer: zone 21.172.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.209 zone_maintenance: zone 21.172.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.209 zone_settimer: zone 21.172.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.209 zone 89.100.IN-ADDR.ARPA/IN: starting load
+01-Dec-2019 03:21:01.209 zone 89.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+01-Dec-2019 03:21:01.209 zone 89.100.IN-ADDR.ARPA/IN: loaded; checking validity
+01-Dec-2019 03:21:01.209 zone 89.100.IN-ADDR.ARPA/IN: replacing zone database
+01-Dec-2019 03:21:01.209 zone_settimer: zone 89.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.209 zone 16.172.IN-ADDR.ARPA/IN: starting load
+01-Dec-2019 03:21:01.209 zone 16.172.IN-ADDR.ARPA/IN: number of nodes in database: 0
+01-Dec-2019 03:21:01.210 zone 16.172.IN-ADDR.ARPA/IN: loaded; checking validity
+01-Dec-2019 03:21:01.210 zone 16.172.IN-ADDR.ARPA/IN: replacing zone database
+01-Dec-2019 03:21:01.210 zone_settimer: zone 16.172.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.210 zone D.F.IP6.ARPA/IN: starting load
+01-Dec-2019 03:21:01.210 zone D.F.IP6.ARPA/IN: number of nodes in database: 0
+01-Dec-2019 03:21:01.210 zone D.F.IP6.ARPA/IN: loaded; checking validity
+01-Dec-2019 03:21:01.210 zone D.F.IP6.ARPA/IN: replacing zone database
+01-Dec-2019 03:21:01.210 zone_settimer: zone D.F.IP6.ARPA/IN: enter
+01-Dec-2019 03:21:01.210 zone 22.172.IN-ADDR.ARPA/IN: starting load
+01-Dec-2019 03:21:01.210 zone 22.172.IN-ADDR.ARPA/IN: number of nodes in database: 0
+01-Dec-2019 03:21:01.210 zone 22.172.IN-ADDR.ARPA/IN: loaded; checking validity
+01-Dec-2019 03:21:01.210 zone 22.172.IN-ADDR.ARPA/IN: replacing zone database
+01-Dec-2019 03:21:01.210 zone_settimer: zone 22.172.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.210 zone 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa/IN: skipping load: master file older than last load
+01-Dec-2019 03:21:01.210 zone_timer: zone 88.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.210 zone_maintenance: zone 88.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.210 zone_settimer: zone 88.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.210 zone_timer: zone 97.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.210 zone_maintenance: zone 97.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.210 zone_settimer: zone 97.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.210 zone 30.172.IN-ADDR.ARPA/IN: starting load
+01-Dec-2019 03:21:01.210 zone 30.172.IN-ADDR.ARPA/IN: number of nodes in database: 0
+01-Dec-2019 03:21:01.210 zone 30.172.IN-ADDR.ARPA/IN: loaded; checking validity
+01-Dec-2019 03:21:01.210 zone 30.172.IN-ADDR.ARPA/IN: replacing zone database
+01-Dec-2019 03:21:01.210 zone_settimer: zone 30.172.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.210 zone 2.0.192.IN-ADDR.ARPA/IN: starting load
+01-Dec-2019 03:21:01.210 zone 2.0.192.IN-ADDR.ARPA/IN: number of nodes in database: 0
+01-Dec-2019 03:21:01.210 zone 2.0.192.IN-ADDR.ARPA/IN: loaded; checking validity
+01-Dec-2019 03:21:01.210 zone 2.0.192.IN-ADDR.ARPA/IN: replacing zone database
+01-Dec-2019 03:21:01.210 zone_settimer: zone 2.0.192.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.210 zone_timer: zone 86.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.210 zone_maintenance: zone 86.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.210 zone_settimer: zone 86.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.210 zone_timer: zone 87.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.210 zone_maintenance: zone 87.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.210 zone_settimer: zone 87.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.210 zone_timer: zone 28.172.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.210 zone_maintenance: zone 28.172.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.210 zone_settimer: zone 28.172.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.210 zone 98.100.IN-ADDR.ARPA/IN: starting load
+01-Dec-2019 03:21:01.210 zone 98.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+01-Dec-2019 03:21:01.210 zone 98.100.IN-ADDR.ARPA/IN: loaded; checking validity
+01-Dec-2019 03:21:01.210 zone 98.100.IN-ADDR.ARPA/IN: replacing zone database
+01-Dec-2019 03:21:01.210 zone_settimer: zone 98.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.210 zone 29.172.IN-ADDR.ARPA/IN: starting load
+01-Dec-2019 03:21:01.210 zone 29.172.IN-ADDR.ARPA/IN: number of nodes in database: 0
+01-Dec-2019 03:21:01.210 zone 29.172.IN-ADDR.ARPA/IN: loaded; checking validity
+01-Dec-2019 03:21:01.210 zone 29.172.IN-ADDR.ARPA/IN: replacing zone database
+01-Dec-2019 03:21:01.210 zone_settimer: zone 29.172.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.210 zone_timer: zone 255.255.255.255.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.210 zone_maintenance: zone 255.255.255.255.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.210 zone_settimer: zone 255.255.255.255.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.210 zone_timer: zone 23.172.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.210 zone_maintenance: zone 23.172.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.210 zone_settimer: zone 23.172.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.210 zone_timer: zone 31.172.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.210 zone_maintenance: zone 31.172.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.210 zone_settimer: zone 31.172.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.210 zone localhost/IN: skipping load: master file older than last load
+01-Dec-2019 03:21:01.210 dns_adb_destroyfind on find 0x7fae216ccfb0
+01-Dec-2019 03:21:01.210 zone_timer: zone 69.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.210 zone_maintenance: zone 69.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.210 zone_settimer: zone 69.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.210 zone_timer: zone 91.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.210 zone_maintenance: zone 91.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.210 zone_settimer: zone 91.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.210 zone 17.172.IN-ADDR.ARPA/IN: starting load
+01-Dec-2019 03:21:01.210 zone 17.172.IN-ADDR.ARPA/IN: number of nodes in database: 0
+01-Dec-2019 03:21:01.210 zone 17.172.IN-ADDR.ARPA/IN: loaded; checking validity
+01-Dec-2019 03:21:01.210 zone 17.172.IN-ADDR.ARPA/IN: replacing zone database
+01-Dec-2019 03:21:01.210 zone_settimer: zone 17.172.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.210 zone 18.172.IN-ADDR.ARPA/IN: starting load
+01-Dec-2019 03:21:01.210 zone 18.172.IN-ADDR.ARPA/IN: number of nodes in database: 0
+01-Dec-2019 03:21:01.210 zone 18.172.IN-ADDR.ARPA/IN: loaded; checking validity
+01-Dec-2019 03:21:01.210 zone 18.172.IN-ADDR.ARPA/IN: replacing zone database
+01-Dec-2019 03:21:01.210 zone_settimer: zone 18.172.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.210 zone A.E.F.IP6.ARPA/IN: starting load
+01-Dec-2019 03:21:01.210 zone A.E.F.IP6.ARPA/IN: number of nodes in database: 0
+01-Dec-2019 03:21:01.210 zone A.E.F.IP6.ARPA/IN: loaded; checking validity
+01-Dec-2019 03:21:01.210 zone A.E.F.IP6.ARPA/IN: replacing zone database
+01-Dec-2019 03:21:01.210 zone_settimer: zone A.E.F.IP6.ARPA/IN: enter
+01-Dec-2019 03:21:01.210 zone B.E.F.IP6.ARPA/IN: starting load
+01-Dec-2019 03:21:01.210 zone B.E.F.IP6.ARPA/IN: number of nodes in database: 0
+01-Dec-2019 03:21:01.210 zone B.E.F.IP6.ARPA/IN: loaded; checking validity
+01-Dec-2019 03:21:01.210 zone B.E.F.IP6.ARPA/IN: replacing zone database
+01-Dec-2019 03:21:01.210 zone_settimer: zone B.E.F.IP6.ARPA/IN: enter
+01-Dec-2019 03:21:01.210 zone_timer: zone 95.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.210 zone_maintenance: zone 95.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.210 zone_settimer: zone 95.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 zone 19.172.IN-ADDR.ARPA/IN: starting load
+01-Dec-2019 03:21:01.211 zone 19.172.IN-ADDR.ARPA/IN: number of nodes in database: 0
+01-Dec-2019 03:21:01.211 zone 19.172.IN-ADDR.ARPA/IN: loaded; checking validity
+01-Dec-2019 03:21:01.211 zone 19.172.IN-ADDR.ARPA/IN: replacing zone database
+01-Dec-2019 03:21:01.211 zone_settimer: zone 19.172.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 zone 8.E.F.IP6.ARPA/IN: starting load
+01-Dec-2019 03:21:01.211 zone 8.E.F.IP6.ARPA/IN: number of nodes in database: 0
+01-Dec-2019 03:21:01.211 zone 8.E.F.IP6.ARPA/IN: loaded; checking validity
+01-Dec-2019 03:21:01.211 zone 8.E.F.IP6.ARPA/IN: replacing zone database
+01-Dec-2019 03:21:01.211 zone_settimer: zone 8.E.F.IP6.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 all zones loaded
+01-Dec-2019 03:21:01.211 dns_zone_maintenance: zone localhost.localdomain/IN: enter
+01-Dec-2019 03:21:01.211 zone_settimer: zone localhost.localdomain/IN: enter
+01-Dec-2019 03:21:01.211 dns_zone_maintenance: zone localhost/IN: enter
+01-Dec-2019 03:21:01.211 zone_settimer: zone localhost/IN: enter
+01-Dec-2019 03:21:01.211 dns_zone_maintenance: zone 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa/IN: enter
+01-Dec-2019 03:21:01.211 zone_settimer: zone 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa/IN: enter
+01-Dec-2019 03:21:01.211 dns_zone_maintenance: zone 1.0.0.127.in-addr.arpa/IN: enter
+01-Dec-2019 03:21:01.211 zone_settimer: zone 1.0.0.127.in-addr.arpa/IN: enter
+01-Dec-2019 03:21:01.211 dns_zone_maintenance: zone 0.in-addr.arpa/IN: enter
+01-Dec-2019 03:21:01.211 zone_settimer: zone 0.in-addr.arpa/IN: enter
+01-Dec-2019 03:21:01.211 dns_zone_maintenance: managed-keys-zone: enter
+01-Dec-2019 03:21:01.211 zone_settimer: managed-keys-zone: enter
+01-Dec-2019 03:21:01.211 dns_zone_maintenance: zone 10.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 zone_settimer: zone 10.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 dns_zone_maintenance: zone 16.172.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 zone_settimer: zone 16.172.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 dns_zone_maintenance: zone 17.172.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 zone_settimer: zone 17.172.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 dns_zone_maintenance: zone 18.172.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 zone_settimer: zone 18.172.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 dns_zone_maintenance: zone 19.172.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 zone_settimer: zone 19.172.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 dns_zone_maintenance: zone 20.172.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 zone_settimer: zone 20.172.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 dns_zone_maintenance: zone 21.172.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 zone_settimer: zone 21.172.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 dns_zone_maintenance: zone 22.172.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 zone_settimer: zone 22.172.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 dns_zone_maintenance: zone 23.172.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 zone_settimer: zone 23.172.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 dns_zone_maintenance: zone 24.172.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 zone_settimer: zone 24.172.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 dns_zone_maintenance: zone 25.172.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 zone_settimer: zone 25.172.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 dns_zone_maintenance: zone 26.172.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 zone_settimer: zone 26.172.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 dns_zone_maintenance: zone 27.172.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 zone_settimer: zone 27.172.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 dns_zone_maintenance: zone 28.172.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 zone_settimer: zone 28.172.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 dns_zone_maintenance: zone 29.172.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 zone_settimer: zone 29.172.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 dns_zone_maintenance: zone 30.172.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 zone_settimer: zone 30.172.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 dns_zone_maintenance: zone 31.172.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 zone_settimer: zone 31.172.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 dns_zone_maintenance: zone 168.192.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 zone_settimer: zone 168.192.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 dns_zone_maintenance: zone 64.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 zone_settimer: zone 64.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 dns_zone_maintenance: zone 65.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 zone_settimer: zone 65.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 dns_zone_maintenance: zone 66.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 zone_settimer: zone 66.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 dns_zone_maintenance: zone 67.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 zone_settimer: zone 67.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 dns_zone_maintenance: zone 68.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 zone_settimer: zone 68.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 dns_zone_maintenance: zone 69.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 zone_settimer: zone 69.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 dns_zone_maintenance: zone 70.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 zone_settimer: zone 70.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 dns_zone_maintenance: zone 71.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 zone_settimer: zone 71.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 dns_zone_maintenance: zone 72.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 zone_settimer: zone 72.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 dns_zone_maintenance: zone 73.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 zone_settimer: zone 73.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 dns_zone_maintenance: zone 74.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 zone_settimer: zone 74.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 dns_zone_maintenance: zone 75.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 zone_settimer: zone 75.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 dns_zone_maintenance: zone 76.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 zone_settimer: zone 76.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 dns_zone_maintenance: zone 77.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 zone_settimer: zone 77.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 dns_zone_maintenance: zone 78.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 zone_settimer: zone 78.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 dns_zone_maintenance: zone 79.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 zone_settimer: zone 79.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 dns_zone_maintenance: zone 80.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 zone_settimer: zone 80.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 dns_zone_maintenance: zone 81.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 zone_settimer: zone 81.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 dns_zone_maintenance: zone 82.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 zone_settimer: zone 82.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 dns_zone_maintenance: zone 83.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 zone_settimer: zone 83.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 dns_zone_maintenance: zone 84.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 zone_settimer: zone 84.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 dns_zone_maintenance: zone 85.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 zone_settimer: zone 85.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 dns_zone_maintenance: zone 86.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 zone_settimer: zone 86.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 dns_zone_maintenance: zone 87.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 zone_settimer: zone 87.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 dns_zone_maintenance: zone 88.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 zone_settimer: zone 88.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 dns_zone_maintenance: zone 89.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 zone_settimer: zone 89.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 dns_zone_maintenance: zone 90.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 zone_settimer: zone 90.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 dns_zone_maintenance: zone 91.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 zone_settimer: zone 91.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 dns_zone_maintenance: zone 92.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 zone_settimer: zone 92.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 dns_zone_maintenance: zone 93.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 zone_settimer: zone 93.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 dns_zone_maintenance: zone 94.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 zone_settimer: zone 94.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 dns_zone_maintenance: zone 95.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 zone_settimer: zone 95.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 dns_zone_maintenance: zone 96.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 zone_settimer: zone 96.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 dns_zone_maintenance: zone 97.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 zone_settimer: zone 97.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 dns_zone_maintenance: zone 98.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 zone_settimer: zone 98.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 dns_zone_maintenance: zone 99.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 zone_settimer: zone 99.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 dns_zone_maintenance: zone 100.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 zone_settimer: zone 100.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 dns_zone_maintenance: zone 101.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 zone_settimer: zone 101.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 dns_zone_maintenance: zone 102.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 zone_settimer: zone 102.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 dns_zone_maintenance: zone 103.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 zone_settimer: zone 103.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 dns_zone_maintenance: zone 104.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 zone_settimer: zone 104.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 dns_zone_maintenance: zone 105.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 zone_settimer: zone 105.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 dns_zone_maintenance: zone 106.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 zone_settimer: zone 106.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 dns_zone_maintenance: zone 107.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 zone_settimer: zone 107.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 dns_zone_maintenance: zone 108.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 zone_settimer: zone 108.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 dns_zone_maintenance: zone 109.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 zone_settimer: zone 109.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 dns_zone_maintenance: zone 110.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 zone_settimer: zone 110.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 dns_zone_maintenance: zone 111.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 zone_settimer: zone 111.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 dns_zone_maintenance: zone 112.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 zone_settimer: zone 112.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 dns_zone_maintenance: zone 113.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 zone_settimer: zone 113.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 dns_zone_maintenance: zone 114.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 zone_settimer: zone 114.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 dns_zone_maintenance: zone 115.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 zone_settimer: zone 115.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 dns_zone_maintenance: zone 116.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 zone_settimer: zone 116.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 dns_zone_maintenance: zone 117.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 zone_settimer: zone 117.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 dns_zone_maintenance: zone 118.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 zone_settimer: zone 118.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 dns_zone_maintenance: zone 119.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 zone_settimer: zone 119.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 dns_zone_maintenance: zone 120.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 zone_settimer: zone 120.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 dns_zone_maintenance: zone 121.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 zone_settimer: zone 121.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 dns_zone_maintenance: zone 122.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 zone_settimer: zone 122.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 dns_zone_maintenance: zone 123.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 zone_settimer: zone 123.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 dns_zone_maintenance: zone 124.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 zone_settimer: zone 124.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 dns_zone_maintenance: zone 125.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 zone_settimer: zone 125.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 dns_zone_maintenance: zone 126.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 zone_settimer: zone 126.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 dns_zone_maintenance: zone 127.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 zone_settimer: zone 127.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 dns_zone_maintenance: zone 127.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 zone_settimer: zone 127.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 dns_zone_maintenance: zone 254.169.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 zone_settimer: zone 254.169.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 dns_zone_maintenance: zone 2.0.192.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 zone_settimer: zone 2.0.192.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 dns_zone_maintenance: zone 100.51.198.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 zone_settimer: zone 100.51.198.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 dns_zone_maintenance: zone 113.0.203.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 zone_settimer: zone 113.0.203.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 dns_zone_maintenance: zone 255.255.255.255.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 zone_settimer: zone 255.255.255.255.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 dns_zone_maintenance: zone 0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 zone_settimer: zone 0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 dns_zone_maintenance: zone D.F.IP6.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 zone_settimer: zone D.F.IP6.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 dns_zone_maintenance: zone 8.E.F.IP6.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 zone_settimer: zone 8.E.F.IP6.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 dns_zone_maintenance: zone 9.E.F.IP6.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 zone_settimer: zone 9.E.F.IP6.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 dns_zone_maintenance: zone A.E.F.IP6.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 zone_settimer: zone A.E.F.IP6.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 dns_zone_maintenance: zone B.E.F.IP6.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 zone_settimer: zone B.E.F.IP6.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 dns_zone_maintenance: zone 8.B.D.0.1.0.0.2.IP6.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 zone_settimer: zone 8.B.D.0.1.0.0.2.IP6.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 dns_zone_maintenance: zone EMPTY.AS112.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 zone_settimer: zone EMPTY.AS112.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 dns_zone_maintenance: zone HOME.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 zone_settimer: zone HOME.ARPA/IN: enter
+01-Dec-2019 03:21:01.211 dns_zone_maintenance: zone version.bind/CH: enter
+01-Dec-2019 03:21:01.211 zone_settimer: zone version.bind/CH: enter
+01-Dec-2019 03:21:01.211 dns_zone_maintenance: zone hostname.bind/CH: enter
+01-Dec-2019 03:21:01.211 zone_settimer: zone hostname.bind/CH: enter
+01-Dec-2019 03:21:01.211 dns_zone_maintenance: zone authors.bind/CH: enter
+01-Dec-2019 03:21:01.211 zone_settimer: zone authors.bind/CH: enter
+01-Dec-2019 03:21:01.211 dns_zone_maintenance: zone id.server/CH: enter
+01-Dec-2019 03:21:01.212 zone_settimer: zone id.server/CH: enter
+01-Dec-2019 03:21:01.212 running
+01-Dec-2019 03:21:01.212 zone_timer: zone 16.172.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.212 zone_maintenance: zone 16.172.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.212 zone_settimer: zone 16.172.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.212 zone_timer: zone 18.172.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.212 zone_maintenance: zone 18.172.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.212 zone_settimer: zone 18.172.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.212 zone_timer: zone 17.172.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.212 zone_maintenance: zone 17.172.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.212 zone_settimer: zone 17.172.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.212 zone_timer: zone 19.172.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.212 zone_maintenance: zone 19.172.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.212 zone_settimer: zone 19.172.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.212 zone_timer: zone D.F.IP6.ARPA/IN: enter
+01-Dec-2019 03:21:01.212 zone_maintenance: zone D.F.IP6.ARPA/IN: enter
+01-Dec-2019 03:21:01.212 zone_settimer: zone D.F.IP6.ARPA/IN: enter
+01-Dec-2019 03:21:01.212 zone_timer: zone 29.172.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.212 zone_maintenance: zone 29.172.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.212 zone_settimer: zone 29.172.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.212 zone_timer: zone 2.0.192.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.212 zone_maintenance: zone 2.0.192.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.212 zone_settimer: zone 2.0.192.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.212 zone_timer: zone 30.172.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.212 zone_maintenance: zone 30.172.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.212 zone_settimer: zone 30.172.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.212 zone_timer: zone 98.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.212 zone_maintenance: zone 98.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.212 zone_settimer: zone 98.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.212 zone_timer: zone 89.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.212 zone_maintenance: zone 89.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.212 zone_settimer: zone 89.100.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.212 zone_timer: zone 8.E.F.IP6.ARPA/IN: enter
+01-Dec-2019 03:21:01.212 zone_maintenance: zone 8.E.F.IP6.ARPA/IN: enter
+01-Dec-2019 03:21:01.212 zone_settimer: zone 8.E.F.IP6.ARPA/IN: enter
+01-Dec-2019 03:21:01.212 zone_timer: zone 22.172.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.212 zone_maintenance: zone 22.172.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.212 zone_settimer: zone 22.172.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.212 zone_timer: zone B.E.F.IP6.ARPA/IN: enter
+01-Dec-2019 03:21:01.212 zone_maintenance: zone B.E.F.IP6.ARPA/IN: enter
+01-Dec-2019 03:21:01.212 zone_settimer: zone B.E.F.IP6.ARPA/IN: enter
+01-Dec-2019 03:21:01.212 zone_timer: zone A.E.F.IP6.ARPA/IN: enter
+01-Dec-2019 03:21:01.212 zone_maintenance: zone A.E.F.IP6.ARPA/IN: enter
+01-Dec-2019 03:21:01.212 zone_settimer: zone A.E.F.IP6.ARPA/IN: enter
+01-Dec-2019 03:21:01.212 zone_timer: zone 127.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.212 zone_maintenance: zone 127.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:01.212 zone_settimer: zone 127.IN-ADDR.ARPA/IN: enter
+01-Dec-2019 03:21:27.210 zone_timer: managed-keys-zone: enter
+01-Dec-2019 03:21:27.210 zone_maintenance: managed-keys-zone: enter
+01-Dec-2019 03:21:27.210 zone_dump: managed-keys-zone: enter
+01-Dec-2019 03:21:27.210 zone_settimer: managed-keys-zone: enter
+01-Dec-2019 03:21:27.210 zone_gotwritehandle: managed-keys-zone: enter
+01-Dec-2019 03:21:27.211 dump_done: managed-keys-zone: enter
+01-Dec-2019 03:21:27.211 journal file /var/named/dynamic/managed-keys.bind.jnw does not exist, creating it
+01-Dec-2019 03:21:27.211 managed-keys-zone: dns_journal_compact: success
+01-Dec-2019 03:35:08.913 automatic interface rescan
+01-Dec-2019 04:00:51.836 automatic interface rescan
+01-Dec-2019 04:07:26.769 dns_zone_dialup: zone EMPTY.AS112.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 04:07:26.769 dns_zone_dialup: zone HOME.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 04:07:26.769 dns_zone_dialup: zone 0.in-addr.arpa/IN: notify = 0, refresh = 0
+01-Dec-2019 04:07:26.769 dns_zone_dialup: zone 10.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 04:07:26.769 dns_zone_dialup: zone 100.100.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 04:07:26.769 dns_zone_dialup: zone 101.100.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 04:07:26.769 dns_zone_dialup: zone 102.100.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 04:07:26.769 dns_zone_dialup: zone 103.100.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 04:07:26.769 dns_zone_dialup: zone 104.100.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 04:07:26.769 dns_zone_dialup: zone 105.100.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 04:07:26.769 dns_zone_dialup: zone 106.100.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 04:07:26.769 dns_zone_dialup: zone 107.100.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 04:07:26.769 dns_zone_dialup: zone 108.100.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 04:07:26.769 dns_zone_dialup: zone 109.100.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 04:07:26.769 dns_zone_dialup: zone 110.100.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 04:07:26.769 dns_zone_dialup: zone 111.100.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 04:07:26.769 dns_zone_dialup: zone 112.100.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 04:07:26.769 dns_zone_dialup: zone 113.100.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 04:07:26.769 dns_zone_dialup: zone 114.100.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 04:07:26.769 dns_zone_dialup: zone 115.100.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 04:07:26.769 dns_zone_dialup: zone 116.100.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 04:07:26.769 dns_zone_dialup: zone 117.100.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 04:07:26.769 dns_zone_dialup: zone 118.100.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 04:07:26.769 dns_zone_dialup: zone 119.100.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 04:07:26.769 dns_zone_dialup: zone 120.100.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 04:07:26.769 dns_zone_dialup: zone 121.100.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 04:07:26.769 dns_zone_dialup: zone 122.100.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 04:07:26.769 dns_zone_dialup: zone 123.100.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 04:07:26.769 dns_zone_dialup: zone 124.100.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 04:07:26.769 dns_zone_dialup: zone 125.100.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 04:07:26.769 dns_zone_dialup: zone 126.100.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 04:07:26.769 dns_zone_dialup: zone 127.100.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 04:07:26.769 dns_zone_dialup: zone 64.100.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 04:07:26.769 dns_zone_dialup: zone 65.100.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 04:07:26.769 dns_zone_dialup: zone 66.100.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 04:07:26.769 dns_zone_dialup: zone 67.100.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 04:07:26.769 dns_zone_dialup: zone 68.100.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 04:07:26.769 dns_zone_dialup: zone 69.100.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 04:07:26.769 dns_zone_dialup: zone 70.100.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 04:07:26.769 dns_zone_dialup: zone 71.100.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 04:07:26.769 dns_zone_dialup: zone 72.100.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 04:07:26.769 dns_zone_dialup: zone 73.100.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 04:07:26.769 dns_zone_dialup: zone 74.100.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 04:07:26.769 dns_zone_dialup: zone 75.100.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 04:07:26.769 dns_zone_dialup: zone 76.100.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 04:07:26.769 dns_zone_dialup: zone 77.100.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 04:07:26.769 dns_zone_dialup: zone 78.100.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 04:07:26.769 dns_zone_dialup: zone 79.100.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 04:07:26.769 dns_zone_dialup: zone 80.100.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 04:07:26.769 dns_zone_dialup: zone 81.100.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 04:07:26.769 dns_zone_dialup: zone 82.100.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 04:07:26.769 dns_zone_dialup: zone 83.100.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 04:07:26.769 dns_zone_dialup: zone 84.100.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 04:07:26.769 dns_zone_dialup: zone 85.100.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 04:07:26.769 dns_zone_dialup: zone 86.100.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 04:07:26.769 dns_zone_dialup: zone 87.100.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 04:07:26.769 dns_zone_dialup: zone 88.100.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 04:07:26.769 dns_zone_dialup: zone 89.100.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 04:07:26.769 dns_zone_dialup: zone 90.100.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 04:07:26.769 dns_zone_dialup: zone 91.100.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 04:07:26.769 dns_zone_dialup: zone 92.100.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 04:07:26.769 dns_zone_dialup: zone 93.100.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 04:07:26.769 dns_zone_dialup: zone 94.100.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 04:07:26.769 dns_zone_dialup: zone 95.100.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 04:07:26.769 dns_zone_dialup: zone 96.100.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 04:07:26.769 dns_zone_dialup: zone 97.100.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 04:07:26.769 dns_zone_dialup: zone 98.100.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 04:07:26.769 dns_zone_dialup: zone 99.100.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 04:07:26.769 dns_zone_dialup: zone 127.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 04:07:26.769 dns_zone_dialup: zone 1.0.0.127.in-addr.arpa/IN: notify = 0, refresh = 0
+01-Dec-2019 04:07:26.770 dns_zone_dialup: zone 254.169.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 04:07:26.770 dns_zone_dialup: zone 16.172.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 04:07:26.770 dns_zone_dialup: zone 17.172.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 04:07:26.770 dns_zone_dialup: zone 18.172.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 04:07:26.770 dns_zone_dialup: zone 19.172.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 04:07:26.770 dns_zone_dialup: zone 20.172.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 04:07:26.770 dns_zone_dialup: zone 21.172.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 04:07:26.770 dns_zone_dialup: zone 22.172.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 04:07:26.770 dns_zone_dialup: zone 23.172.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 04:07:26.770 dns_zone_dialup: zone 24.172.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 04:07:26.770 dns_zone_dialup: zone 25.172.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 04:07:26.770 dns_zone_dialup: zone 26.172.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 04:07:26.770 dns_zone_dialup: zone 27.172.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 04:07:26.770 dns_zone_dialup: zone 28.172.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 04:07:26.770 dns_zone_dialup: zone 29.172.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 04:07:26.770 dns_zone_dialup: zone 30.172.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 04:07:26.770 dns_zone_dialup: zone 31.172.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 04:07:26.770 dns_zone_dialup: zone 2.0.192.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 04:07:26.770 dns_zone_dialup: zone 168.192.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 04:07:26.770 dns_zone_dialup: zone 100.51.198.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 04:07:26.770 dns_zone_dialup: zone 113.0.203.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 04:07:26.770 dns_zone_dialup: zone 255.255.255.255.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 04:07:26.770 dns_zone_dialup: zone 0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 04:07:26.770 dns_zone_dialup: zone 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa/IN: notify = 0, refresh = 0
+01-Dec-2019 04:07:26.770 dns_zone_dialup: zone 8.B.D.0.1.0.0.2.IP6.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 04:07:26.770 dns_zone_dialup: zone D.F.IP6.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 04:07:26.770 dns_zone_dialup: zone 8.E.F.IP6.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 04:07:26.770 dns_zone_dialup: zone 9.E.F.IP6.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 04:07:26.770 dns_zone_dialup: zone A.E.F.IP6.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 04:07:26.770 dns_zone_dialup: zone B.E.F.IP6.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 04:07:26.770 dns_zone_dialup: zone localhost.localdomain/IN: notify = 0, refresh = 0
+01-Dec-2019 04:07:26.770 dns_zone_dialup: zone localhost/IN: notify = 0, refresh = 0
+01-Dec-2019 04:07:26.770 dns_zone_dialup: zone authors.bind/CH: notify = 0, refresh = 0
+01-Dec-2019 04:07:26.770 dns_zone_dialup: zone hostname.bind/CH: notify = 0, refresh = 0
+01-Dec-2019 04:07:26.770 dns_zone_dialup: zone version.bind/CH: notify = 0, refresh = 0
+01-Dec-2019 04:07:26.770 dns_zone_dialup: zone id.server/CH: notify = 0, refresh = 0
+01-Dec-2019 04:21:01.207 zone_timer: managed-keys-zone: enter
+01-Dec-2019 04:21:01.207 zone_maintenance: managed-keys-zone: enter
+01-Dec-2019 04:21:01.207 zone_refreshkeys: managed-keys-zone: enter
+01-Dec-2019 04:21:01.207 managed-keys-zone: Creating key fetch in zone_refreshkeys() for '.'
+01-Dec-2019 04:21:01.207 fetch: ./DNSKEY
+01-Dec-2019 04:21:01.207 zone_settimer: managed-keys-zone: enter
+01-Dec-2019 04:21:01.207 expiring v4 for name 0x7fae216ce310
+01-Dec-2019 04:21:01.207 killing entry 0x7fae216d11c8
+01-Dec-2019 04:21:01.207 dns_adb_createfind: found A for name dns.example.com (0x7fae216ce310) in db
+01-Dec-2019 04:21:01.209 managed-keys-zone: Returned from key fetch in keyfetch_done() for '.': ncache nxrrset
+01-Dec-2019 04:21:01.209 managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+01-Dec-2019 04:21:01.209 set_refreshkeytimer: managed-keys-zone: enter
+01-Dec-2019 04:21:01.209 managed-keys-zone: next key refresh: 01-Dec-2019 05:21:01.209
+01-Dec-2019 04:21:01.209 zone_settimer: managed-keys-zone: enter
+01-Dec-2019 04:21:01.209 set_refreshkeytimer: managed-keys-zone: enter
+01-Dec-2019 04:21:01.209 managed-keys-zone: next key refresh: 01-Dec-2019 05:21:01.209
+01-Dec-2019 04:21:01.209 zone_settimer: managed-keys-zone: enter
+01-Dec-2019 04:21:01.209 zone_journal: managed-keys-zone: enter
+01-Dec-2019 04:21:01.209 writing to journal
+01-Dec-2019 04:21:01.209 del .			0	IN	SOA	. . 58 0 0 0 0
+01-Dec-2019 04:21:01.209 del .			0	IN	TYPE65533 \# 276 5DE33FAD00000000000000000101030803010001ACFFB409BCC939F8 31F7A1E5EC88F7A59255EC53040BE432027390A4CE896D6F9086F3C5 E177FBFE118163AAEC7AF1462C47945944C4E2C026BE5E98BBCDED25 978272E1E3E079C5094D573F0E83C92F02B32D3513B1550B826929C8 0DD0F92CAC966D17769FD5867B647C3F38029ABDC48152EB8F207159 ECC5D232C7C1537C79F4B7AC28FF11682F21681BF6D6ABA555032BF6 F9F036BEB2AAA5B3778D6EEBFBA6BF9EA191BE4AB0CAEA759E2F773A 1F9029C73ECB8D5735B9321DB085F1B8E2D8038FE2941992548CEE0D 67DD4547E11DD63AF9C9FC1C5466FB684CF009D7197C2CF79E792AB5 01E6A8A1CA519AF2CB9B5F6367E94C0D47502451357BE1B5
+01-Dec-2019 04:21:01.210 del .			0	IN	TYPE65533 \# 276 5DE33FAD00000000000000000101030803010001A80020A95566BA42 E886BB804CDA84E47EF56DBD7AEC612615552CEC906D2116D0EF2070 28C51554144DFEAFE7C7CB8F005DD18234133AC0710A81182CE1FD14 AD2283BC83435F9DF2F6313251931A176DF0DA51E54F42E604860DFB 359580250F559CC543C4FFD51CBE3DE8CFD06719237F9FC47EE729DA 06835FA452E825E9A18EBC2ECBCF563474652C33CF56A9033BCDF5D9 73121797EC8089041B6E03A1B72D0A735B984E03687309332324F27C 2DBA85E9DB15E83A0143382E974B0621C18E625ECEC907577D9E7BAD E95241A81EBBE8A901D4D3276E40B114C0A2E6FC38D19C2E6AAB0264 4B2813F575FC21601E0DEE49CD9EE96A43103E524D62873D
+01-Dec-2019 04:21:01.210 add .			0	IN	SOA	. . 59 0 0 0 0
+01-Dec-2019 04:21:01.210 add .			0	IN	TYPE65533 \# 276 5DE34DBD00000000000000000101030803010001ACFFB409BCC939F8 31F7A1E5EC88F7A59255EC53040BE432027390A4CE896D6F9086F3C5 E177FBFE118163AAEC7AF1462C47945944C4E2C026BE5E98BBCDED25 978272E1E3E079C5094D573F0E83C92F02B32D3513B1550B826929C8 0DD0F92CAC966D17769FD5867B647C3F38029ABDC48152EB8F207159 ECC5D232C7C1537C79F4B7AC28FF11682F21681BF6D6ABA555032BF6 F9F036BEB2AAA5B3778D6EEBFBA6BF9EA191BE4AB0CAEA759E2F773A 1F9029C73ECB8D5735B9321DB085F1B8E2D8038FE2941992548CEE0D 67DD4547E11DD63AF9C9FC1C5466FB684CF009D7197C2CF79E792AB5 01E6A8A1CA519AF2CB9B5F6367E94C0D47502451357BE1B5
+01-Dec-2019 04:21:01.210 add .			0	IN	TYPE65533 \# 276 5DE34DBD00000000000000000101030803010001A80020A95566BA42 E886BB804CDA84E47EF56DBD7AEC612615552CEC906D2116D0EF2070 28C51554144DFEAFE7C7CB8F005DD18234133AC0710A81182CE1FD14 AD2283BC83435F9DF2F6313251931A176DF0DA51E54F42E604860DFB 359580250F559CC543C4FFD51CBE3DE8CFD06719237F9FC47EE729DA 06835FA452E825E9A18EBC2ECBCF563474652C33CF56A9033BCDF5D9 73121797EC8089041B6E03A1B72D0A735B984E03687309332324F27C 2DBA85E9DB15E83A0143382E974B0621C18E625ECEC907577D9E7BAD E95241A81EBBE8A901D4D3276E40B114C0A2E6FC38D19C2E6AAB0264 4B2813F575FC21601E0DEE49CD9EE96A43103E524D62873D
+01-Dec-2019 04:21:01.211 zone_needdump: managed-keys-zone: enter
+01-Dec-2019 04:21:01.211 zone_settimer: managed-keys-zone: enter
+01-Dec-2019 04:21:01.211 dns_adb_destroyfind on find 0x7fae216ccfb0
+01-Dec-2019 04:21:25.211 zone_timer: managed-keys-zone: enter
+01-Dec-2019 04:21:25.211 zone_maintenance: managed-keys-zone: enter
+01-Dec-2019 04:21:25.211 zone_dump: managed-keys-zone: enter
+01-Dec-2019 04:21:25.211 zone_settimer: managed-keys-zone: enter
+01-Dec-2019 04:21:25.211 zone_gotwritehandle: managed-keys-zone: enter
+01-Dec-2019 04:21:25.213 dump_done: managed-keys-zone: enter
+01-Dec-2019 04:21:25.213 journal file /var/named/dynamic/managed-keys.bind.jnw does not exist, creating it
+01-Dec-2019 04:21:25.213 managed-keys-zone: dns_journal_compact: success
+01-Dec-2019 04:26:59.786 automatic interface rescan
+01-Dec-2019 04:52:03.037 automatic interface rescan
+01-Dec-2019 05:07:26.769 dns_zone_dialup: zone EMPTY.AS112.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 05:07:26.769 dns_zone_dialup: zone HOME.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 05:07:26.769 dns_zone_dialup: zone 0.in-addr.arpa/IN: notify = 0, refresh = 0
+01-Dec-2019 05:07:26.769 dns_zone_dialup: zone 10.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 05:07:26.769 dns_zone_dialup: zone 100.100.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 05:07:26.769 dns_zone_dialup: zone 101.100.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 05:07:26.769 dns_zone_dialup: zone 102.100.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 05:07:26.769 dns_zone_dialup: zone 103.100.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 05:07:26.769 dns_zone_dialup: zone 104.100.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 05:07:26.769 dns_zone_dialup: zone 105.100.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 05:07:26.769 dns_zone_dialup: zone 106.100.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 05:07:26.769 dns_zone_dialup: zone 107.100.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 05:07:26.769 dns_zone_dialup: zone 108.100.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 05:07:26.769 dns_zone_dialup: zone 109.100.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 05:07:26.769 dns_zone_dialup: zone 110.100.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 05:07:26.769 dns_zone_dialup: zone 111.100.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 05:07:26.769 dns_zone_dialup: zone 112.100.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 05:07:26.769 dns_zone_dialup: zone 113.100.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 05:07:26.769 dns_zone_dialup: zone 114.100.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 05:07:26.769 dns_zone_dialup: zone 115.100.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 05:07:26.769 dns_zone_dialup: zone 116.100.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 05:07:26.769 dns_zone_dialup: zone 117.100.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 05:07:26.769 dns_zone_dialup: zone 118.100.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 05:07:26.769 dns_zone_dialup: zone 119.100.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 05:07:26.769 dns_zone_dialup: zone 120.100.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 05:07:26.769 dns_zone_dialup: zone 121.100.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 05:07:26.769 dns_zone_dialup: zone 122.100.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 05:07:26.769 dns_zone_dialup: zone 123.100.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 05:07:26.769 dns_zone_dialup: zone 124.100.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 05:07:26.769 dns_zone_dialup: zone 125.100.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 05:07:26.769 dns_zone_dialup: zone 126.100.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 05:07:26.769 dns_zone_dialup: zone 127.100.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 05:07:26.769 dns_zone_dialup: zone 64.100.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 05:07:26.769 dns_zone_dialup: zone 65.100.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 05:07:26.769 dns_zone_dialup: zone 66.100.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 05:07:26.769 dns_zone_dialup: zone 67.100.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 05:07:26.769 dns_zone_dialup: zone 68.100.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 05:07:26.769 dns_zone_dialup: zone 69.100.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 05:07:26.769 dns_zone_dialup: zone 70.100.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 05:07:26.770 dns_zone_dialup: zone 71.100.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 05:07:26.770 dns_zone_dialup: zone 72.100.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 05:07:26.770 dns_zone_dialup: zone 73.100.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 05:07:26.770 dns_zone_dialup: zone 74.100.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 05:07:26.770 dns_zone_dialup: zone 75.100.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 05:07:26.770 dns_zone_dialup: zone 76.100.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 05:07:26.770 dns_zone_dialup: zone 77.100.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 05:07:26.770 dns_zone_dialup: zone 78.100.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 05:07:26.770 dns_zone_dialup: zone 79.100.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 05:07:26.770 dns_zone_dialup: zone 80.100.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 05:07:26.770 dns_zone_dialup: zone 81.100.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 05:07:26.770 dns_zone_dialup: zone 82.100.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 05:07:26.770 dns_zone_dialup: zone 83.100.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 05:07:26.770 dns_zone_dialup: zone 84.100.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 05:07:26.770 dns_zone_dialup: zone 85.100.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 05:07:26.770 dns_zone_dialup: zone 86.100.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 05:07:26.770 dns_zone_dialup: zone 87.100.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 05:07:26.770 dns_zone_dialup: zone 88.100.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 05:07:26.770 dns_zone_dialup: zone 89.100.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 05:07:26.770 dns_zone_dialup: zone 90.100.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 05:07:26.770 dns_zone_dialup: zone 91.100.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 05:07:26.770 dns_zone_dialup: zone 92.100.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 05:07:26.770 dns_zone_dialup: zone 93.100.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 05:07:26.770 dns_zone_dialup: zone 94.100.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 05:07:26.770 dns_zone_dialup: zone 95.100.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 05:07:26.770 dns_zone_dialup: zone 96.100.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 05:07:26.770 dns_zone_dialup: zone 97.100.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 05:07:26.770 dns_zone_dialup: zone 98.100.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 05:07:26.770 dns_zone_dialup: zone 99.100.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 05:07:26.770 dns_zone_dialup: zone 127.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 05:07:26.770 dns_zone_dialup: zone 1.0.0.127.in-addr.arpa/IN: notify = 0, refresh = 0
+01-Dec-2019 05:07:26.770 dns_zone_dialup: zone 254.169.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 05:07:26.770 dns_zone_dialup: zone 16.172.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 05:07:26.770 dns_zone_dialup: zone 17.172.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 05:07:26.770 dns_zone_dialup: zone 18.172.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 05:07:26.770 dns_zone_dialup: zone 19.172.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 05:07:26.770 dns_zone_dialup: zone 20.172.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 05:07:26.770 dns_zone_dialup: zone 21.172.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 05:07:26.770 dns_zone_dialup: zone 22.172.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 05:07:26.770 dns_zone_dialup: zone 23.172.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 05:07:26.770 dns_zone_dialup: zone 24.172.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 05:07:26.770 dns_zone_dialup: zone 25.172.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 05:07:26.770 dns_zone_dialup: zone 26.172.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 05:07:26.770 dns_zone_dialup: zone 27.172.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 05:07:26.770 dns_zone_dialup: zone 28.172.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 05:07:26.770 dns_zone_dialup: zone 29.172.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 05:07:26.770 dns_zone_dialup: zone 30.172.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 05:07:26.770 dns_zone_dialup: zone 31.172.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 05:07:26.770 dns_zone_dialup: zone 2.0.192.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 05:07:26.770 dns_zone_dialup: zone 168.192.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 05:07:26.770 dns_zone_dialup: zone 100.51.198.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 05:07:26.770 dns_zone_dialup: zone 113.0.203.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 05:07:26.770 dns_zone_dialup: zone 255.255.255.255.IN-ADDR.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 05:07:26.770 dns_zone_dialup: zone 0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 05:07:26.770 dns_zone_dialup: zone 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa/IN: notify = 0, refresh = 0
+01-Dec-2019 05:07:26.770 dns_zone_dialup: zone 8.B.D.0.1.0.0.2.IP6.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 05:07:26.770 dns_zone_dialup: zone D.F.IP6.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 05:07:26.770 dns_zone_dialup: zone 8.E.F.IP6.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 05:07:26.770 dns_zone_dialup: zone 9.E.F.IP6.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 05:07:26.770 dns_zone_dialup: zone A.E.F.IP6.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 05:07:26.770 dns_zone_dialup: zone B.E.F.IP6.ARPA/IN: notify = 0, refresh = 0
+01-Dec-2019 05:07:26.770 dns_zone_dialup: zone localhost.localdomain/IN: notify = 0, refresh = 0
+01-Dec-2019 05:07:26.770 dns_zone_dialup: zone localhost/IN: notify = 0, refresh = 0
+01-Dec-2019 05:07:26.770 dns_zone_dialup: zone authors.bind/CH: notify = 0, refresh = 0
+01-Dec-2019 05:07:26.770 dns_zone_dialup: zone hostname.bind/CH: notify = 0, refresh = 0
+01-Dec-2019 05:07:26.770 dns_zone_dialup: zone version.bind/CH: notify = 0, refresh = 0
+01-Dec-2019 05:07:26.770 dns_zone_dialup: zone id.server/CH: notify = 0, refresh = 0
+01-Dec-2019 05:19:08.490 automatic interface rescan
+01-Dec-2019 05:21:01.210 zone_timer: managed-keys-zone: enter
+01-Dec-2019 05:21:01.210 zone_maintenance: managed-keys-zone: enter
+01-Dec-2019 05:21:01.210 zone_refreshkeys: managed-keys-zone: enter
+01-Dec-2019 05:21:01.210 managed-keys-zone: Creating key fetch in zone_refreshkeys() for '.'
+01-Dec-2019 05:21:01.210 fetch: ./DNSKEY
+01-Dec-2019 05:21:01.210 zone_settimer: managed-keys-zone: enter
+01-Dec-2019 05:21:01.210 expiring v4 for name 0x7fae216ce310
+01-Dec-2019 05:21:01.210 killing entry 0x7fae216d11c8
+01-Dec-2019 05:21:01.210 dns_adb_createfind: found A for name dns.example.com (0x7fae216ce310) in db
+01-Dec-2019 05:21:01.211 managed-keys-zone: Returned from key fetch in keyfetch_done() for '.': ncache nxrrset
+01-Dec-2019 05:21:01.211 managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+01-Dec-2019 05:21:01.211 set_refreshkeytimer: managed-keys-zone: enter
+01-Dec-2019 05:21:01.211 managed-keys-zone: next key refresh: 01-Dec-2019 06:21:01.211
+01-Dec-2019 05:21:01.211 zone_settimer: managed-keys-zone: enter
+01-Dec-2019 05:21:01.211 set_refreshkeytimer: managed-keys-zone: enter
+01-Dec-2019 05:21:01.211 managed-keys-zone: next key refresh: 01-Dec-2019 06:21:01.211
+01-Dec-2019 05:21:01.211 zone_settimer: managed-keys-zone: enter
+01-Dec-2019 05:21:01.211 zone_journal: managed-keys-zone: enter
+01-Dec-2019 05:21:01.211 writing to journal
+01-Dec-2019 05:21:01.211 del .			0	IN	SOA	. . 59 0 0 0 0
+01-Dec-2019 05:21:01.211 del .			0	IN	TYPE65533 \# 276 5DE34DBD00000000000000000101030803010001ACFFB409BCC939F8 31F7A1E5EC88F7A59255EC53040BE432027390A4CE896D6F9086F3C5 E177FBFE118163AAEC7AF1462C47945944C4E2C026BE5E98BBCDED25 978272E1E3E079C5094D573F0E83C92F02B32D3513B1550B826929C8 0DD0F92CAC966D17769FD5867B647C3F38029ABDC48152EB8F207159 ECC5D232C7C1537C79F4B7AC28FF11682F21681BF6D6ABA555032BF6 F9F036BEB2AAA5B3778D6EEBFBA6BF9EA191BE4AB0CAEA759E2F773A 1F9029C73ECB8D5735B9321DB085F1B8E2D8038FE2941992548CEE0D 67DD4547E11DD63AF9C9FC1C5466FB684CF009D7197C2CF79E792AB5 01E6A8A1CA519AF2CB9B5F6367E94C0D47502451357BE1B5
+01-Dec-2019 05:21:01.211 del .			0	IN	TYPE65533 \# 276 5DE34DBD00000000000000000101030803010001A80020A95566BA42 E886BB804CDA84E47EF56DBD7AEC612615552CEC906D2116D0EF2070 28C51554144DFEAFE7C7CB8F005DD18234133AC0710A81182CE1FD14 AD2283BC83435F9DF2F6313251931A176DF0DA51E54F42E604860DFB 359580250F559CC543C4FFD51CBE3DE8CFD06719237F9FC47EE729DA 06835FA452E825E9A18EBC2ECBCF563474652C33CF56A9033BCDF5D9 73121797EC8089041B6E03A1B72D0A735B984E03687309332324F27C 2DBA85E9DB15E83A0143382E974B0621C18E625ECEC907577D9E7BAD E95241A81EBBE8A901D4D3276E40B114C0A2E6FC38D19C2E6AAB0264 4B2813F575FC21601E0DEE49CD9EE96A43103E524D62873D
+01-Dec-2019 05:21:01.211 add .			0	IN	SOA	. . 60 0 0 0 0
+01-Dec-2019 05:21:01.211 add .			0	IN	TYPE65533 \# 276 5DE35BCD00000000000000000101030803010001ACFFB409BCC939F8 31F7A1E5EC88F7A59255EC53040BE432027390A4CE896D6F9086F3C5 E177FBFE118163AAEC7AF1462C47945944C4E2C026BE5E98BBCDED25 978272E1E3E079C5094D573F0E83C92F02B32D3513B1550B826929C8 0DD0F92CAC966D17769FD5867B647C3F38029ABDC48152EB8F207159 ECC5D232C7C1537C79F4B7AC28FF11682F21681BF6D6ABA555032BF6 F9F036BEB2AAA5B3778D6EEBFBA6BF9EA191BE4AB0CAEA759E2F773A 1F9029C73ECB8D5735B9321DB085F1B8E2D8038FE2941992548CEE0D 67DD4547E11DD63AF9C9FC1C5466FB684CF009D7197C2CF79E792AB5 01E6A8A1CA519AF2CB9B5F6367E94C0D47502451357BE1B5
+01-Dec-2019 05:21:01.211 add .			0	IN	TYPE65533 \# 276 5DE35BCD00000000000000000101030803010001A80020A95566BA42 E886BB804CDA84E47EF56DBD7AEC612615552CEC906D2116D0EF2070 28C51554144DFEAFE7C7CB8F005DD18234133AC0710A81182CE1FD14 AD2283BC83435F9DF2F6313251931A176DF0DA51E54F42E604860DFB 359580250F559CC543C4FFD51CBE3DE8CFD06719237F9FC47EE729DA 06835FA452E825E9A18EBC2ECBCF563474652C33CF56A9033BCDF5D9 73121797EC8089041B6E03A1B72D0A735B984E03687309332324F27C 2DBA85E9DB15E83A0143382E974B0621C18E625ECEC907577D9E7BAD E95241A81EBBE8A901D4D3276E40B114C0A2E6FC38D19C2E6AAB0264 4B2813F575FC21601E0DEE49CD9EE96A43103E524D62873D
+01-Dec-2019 05:21:01.213 zone_needdump: managed-keys-zone: enter
+01-Dec-2019 05:21:01.213 zone_settimer: managed-keys-zone: enter
+01-Dec-2019 05:21:01.213 dns_adb_destroyfind on find 0x7fae216ccfb0
+01-Dec-2019 05:21:26.213 zone_timer: managed-keys-zone: enter
+01-Dec-2019 05:21:26.213 zone_maintenance: managed-keys-zone: enter
+01-Dec-2019 05:21:26.213 zone_dump: managed-keys-zone: enter
+01-Dec-2019 05:21:26.213 zone_settimer: managed-keys-zone: enter
+01-Dec-2019 05:21:26.213 zone_gotwritehandle: managed-keys-zone: enter
+01-Dec-2019 05:21:26.215 dump_done: managed-keys-zone: enter
+01-Dec-2019 05:21:26.215 journal file /var/named/dynamic/managed-keys.bind.jnw does not exist, creating it
+01-Dec-2019 05:21:26.215 managed-keys-zone: dns_journal_compact: success
+01-Dec-2019 05:47:02.130 automatic interface rescan

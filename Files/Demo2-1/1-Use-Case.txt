@@ -1,0 +1,1 @@
+dig +noadditional +noauthority  +question +answer +nostats ip-10-2-2-88.ec2.internal.
