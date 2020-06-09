@@ -1,6 +1,0 @@
-cloud.example.com.			40	IN	NS	inbound.cloud.example.com.
-
-//inbound.cloud.example.com.		60	IN	A	10.1.1.20
-//inbound.cloud.example.com.		60	IN	A	10.1.1.229
-inbound.cloud.example.com.		60	IN	A	10.1.1.2
-
